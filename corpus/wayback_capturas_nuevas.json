@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-14T10:14:16-06:00",
+  "scope": "Service-reported new captures for the 26 canonical corpus source pages only.",
+  "summary": {
+    "legacy_attempt_records_preserved": 2,
+    "attempt_event_records": 28,
+    "serial_attempts": 26,
+    "canonical_targets_attempted": 26,
+    "service_confirmed_captures": 18,
+    "account_verified_captures": 0,
+    "replay_verified_captures": 17,
+    "source_ids_with_service_capture": 40
+  },
+  "interpretation": [
+    "A snapshot_captured service result with its snapshot link confirms the service reported a new capture; account and replay verification remain independent flags.",
+    "Registration can be delayed, and an immediate replay can redirect to an older version. An unverified replay is not asserted accessible.",
+    "Choosing the account option does not confirm account visibility. Missing verification is null; explicit negative observation is false.",
+    "This report does not replace or update the earlier Availability observations in wayback.json.",
+    "Neither a capture result nor a replay confirms byte equivalence with a scientific input file."
+  ],
+  "captures": [
+    {
+      "id": "WB-NEW-93d9dbacbb811a16",
+      "source_ids": [
+        "A3"
+      ],
+      "requested_canonical_urls": [
+        "https://doi.org/10.18268/BSGM2022v74n1a071021"
+      ],
+      "captured_source_url": "https://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+      "snapshot_timestamp": "20261114040028",
+      "snapshot_url": "https://web.archive.org/web/20261114040028/https://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": false,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-ffb59196c7f44212"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:43:35.665Z",
+      "replay_final_url": "https://web.archive.org/web/20260221163754/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+      "replay_status": "november_redirects_to_verified_february_pdf",
+      "verified_fallback_snapshot": {
+        "url": "https://web.archive.org/web/20260221163754/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+        "timestamp": "20260221163754",
+        "consulted_at_utc": "2026-11-14T18:07:08.071494+00:00",
+        "pages": 38,
+        "sha256": "29beee27003f88dd71f85125e249f7c33e2e8a7295d7237fd507cfb291e3b7ff",
+        "bytes_verified": true
+      }
+    },
+    {
+      "id": "WB-NEW-af7077e6e0724e53",
+      "source_ids": [
+        "A2"
+      ],
+      "requested_canonical_urls": [
+        "https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947"
+      ],
+      "captured_source_url": "https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947",
+      "snapshot_timestamp": "20261114035811",
+      "snapshot_url": "https://web.archive.org/web/20261114035811/https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-ecc9b5cb6f083755"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:44:04.114Z",
+      "replay_final_url": "https://web.archive.org/web/20261114035811/https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-6f54563a836f786f",
+      "source_ids": [
+        "A1a"
+      ],
+      "requested_canonical_urls": [
+        "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1"
+      ],
+      "captured_source_url": "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1",
+      "snapshot_timestamp": "20261114041054",
+      "snapshot_url": "https://web.archive.org/web/20261114041054/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-5525686580a85018"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:44:35.397Z",
+      "replay_final_url": "https://web.archive.org/web/20261114041054/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-a0788c1301f13403",
+      "source_ids": [
+        "A1x"
+      ],
+      "requested_canonical_urls": [
+        "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2"
+      ],
+      "captured_source_url": "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2",
+      "snapshot_timestamp": "20261114040222",
+      "snapshot_url": "https://web.archive.org/web/20261114040222/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-05b81c136df65a36"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:45:04.565Z",
+      "replay_final_url": "https://web.archive.org/web/20261114040222/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-021866f4d9ea1e09",
+      "source_ids": [
+        "A1p"
+      ],
+      "requested_canonical_urls": [
+        "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1"
+      ],
+      "captured_source_url": "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1",
+      "snapshot_timestamp": "20261114041205",
+      "snapshot_url": "https://web.archive.org/web/20261114041205/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-02fb3c0b39fd3cd8"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:45:32.446Z",
+      "replay_final_url": "https://web.archive.org/web/20261114041205/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-c0f5f54c93b1ce8b",
+      "source_ids": [
+        "A1n"
+      ],
+      "requested_canonical_urls": [
+        "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1"
+      ],
+      "captured_source_url": "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1",
+      "snapshot_timestamp": "20261114041303",
+      "snapshot_url": "https://web.archive.org/web/20261114041303/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-39d4972f8ff5fb50"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:46:01.399Z",
+      "replay_final_url": "https://web.archive.org/web/20261114041303/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-4164ad2c2e7ead5d",
+      "source_ids": [
+        "ORIGINAL_OPENMETEO_2019"
+      ],
+      "requested_canonical_urls": [
+        "https://open-meteo.com/en/docs/historical-weather-api"
+      ],
+      "captured_source_url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "snapshot_timestamp": "20261114041401",
+      "snapshot_url": "https://web.archive.org/web/20261114041401/https://open-meteo.com/en/docs/historical-weather-api",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-c9e61811d16abfe9"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:47:07.049Z",
+      "replay_final_url": "https://web.archive.org/web/20261114041401/https://open-meteo.com/en/docs/historical-weather-api",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-7e8c308db04b3ab3",
+      "source_ids": [
+        "D14CNPMX",
+        "D14DBOMC",
+        "D14DNXMX",
+        "D14GDLMX",
+        "D14HPNMX",
+        "D14PFBMX",
+        "D14PIRMX",
+        "D14PMDMX",
+        "D14PMNMX",
+        "D14PNDMX",
+        "D14SBBMX",
+        "D14TPTMX",
+        "D14TXMHD",
+        "D14VBRMX",
+        "D14VVCMX"
+      ],
+      "requested_canonical_urls": [
+        "https://sih.conagua.gob.mx/"
+      ],
+      "captured_source_url": "https://sih.conagua.gob.mx/",
+      "snapshot_timestamp": "20261114041504",
+      "snapshot_url": "https://web.archive.org/web/20261114041504/https://sih.conagua.gob.mx/",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-23c2211dfcc3bec7"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:47:40.393Z",
+      "replay_final_url": "https://web.archive.org/web/20261114041504/https://sih.conagua.gob.mx/",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-0b7e8b105abb2b7c",
+      "source_ids": [
+        "D7"
+      ],
+      "requested_canonical_urls": [
+        "https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico"
+      ],
+      "captured_source_url": "https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "snapshot_timestamp": "20261114041702",
+      "snapshot_url": "https://web.archive.org/web/20261114041702/https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-dd410e1b88e84d7a"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:48:12.246Z",
+      "replay_final_url": "https://web.archive.org/web/20261114041702/https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-f350a32407f0e48b",
+      "source_ids": [
+        "D5",
+        "D6"
+      ],
+      "requested_canonical_urls": [
+        "https://www.datos.gob.mx/dataset/aguas_subterraneas"
+      ],
+      "captured_source_url": "https://www.datos.gob.mx/dataset/aguas_subterraneas",
+      "snapshot_timestamp": "20261114040354",
+      "snapshot_url": "https://web.archive.org/web/20261114040354/https://www.datos.gob.mx/dataset/aguas_subterraneas",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-f7cb4980bdb800ed"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:48:45.215Z",
+      "replay_final_url": "https://web.archive.org/web/20261114040354/https://www.datos.gob.mx/dataset/aguas_subterraneas",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-f06e9a32a81d5cc5",
+      "source_ids": [
+        "D4"
+      ],
+      "requested_canonical_urls": [
+        "https://www.datos.gob.mx/dataset/derechos_agua_municipal"
+      ],
+      "captured_source_url": "https://www.datos.gob.mx/dataset/derechos_agua_municipal",
+      "snapshot_timestamp": "20261114041805",
+      "snapshot_url": "https://web.archive.org/web/20261114041805/https://www.datos.gob.mx/dataset/derechos_agua_municipal",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-9e61120652d2fda1"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:49:12.972Z",
+      "replay_final_url": "https://web.archive.org/web/20261114041805/https://www.datos.gob.mx/dataset/derechos_agua_municipal",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-f3676140ef3e7a72",
+      "source_ids": [
+        "D9a",
+        "D9b"
+      ],
+      "requested_canonical_urls": [
+        "https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica"
+      ],
+      "captured_source_url": "https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica",
+      "snapshot_timestamp": "20261114041949",
+      "snapshot_url": "https://web.archive.org/web/20261114041949/https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-3b8e8e2072492185"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:49:42.504Z",
+      "replay_final_url": "https://web.archive.org/web/20261114041949/https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-e03d6b58a7e77c1f",
+      "source_ids": [
+        "D11",
+        "D12",
+        "D15"
+      ],
+      "requested_canonical_urls": [
+        "https://www.datos.gob.mx/dataset/indices_marginacion"
+      ],
+      "captured_source_url": "https://www.datos.gob.mx/dataset/indices_marginacion",
+      "snapshot_timestamp": "20261114042106",
+      "snapshot_url": "https://web.archive.org/web/20261114042106/https://www.datos.gob.mx/dataset/indices_marginacion",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-e7b2c3579f508653"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:50:10.509Z",
+      "replay_final_url": "https://web.archive.org/web/20261114042106/https://www.datos.gob.mx/dataset/indices_marginacion",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-3a84ea4ef57094cd",
+      "source_ids": [
+        "D1a",
+        "D1b"
+      ],
+      "requested_canonical_urls": [
+        "https://www.datos.gob.mx/dataset/metropolis_mexico_2020"
+      ],
+      "captured_source_url": "https://www.datos.gob.mx/dataset/metropolis_mexico_2020",
+      "snapshot_timestamp": "20261114042225",
+      "snapshot_url": "https://web.archive.org/web/20261114042225/https://www.datos.gob.mx/dataset/metropolis_mexico_2020",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-b53ccade8c4a87a9"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:50:38.04Z",
+      "replay_final_url": "https://web.archive.org/web/20261114042225/https://www.datos.gob.mx/dataset/metropolis_mexico_2020",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-3d701b123f0fc618",
+      "source_ids": [
+        "D8a",
+        "D8b",
+        "D8c"
+      ],
+      "requested_canonical_urls": [
+        "https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose"
+      ],
+      "captured_source_url": "https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose",
+      "snapshot_timestamp": "20261114040512",
+      "snapshot_url": "https://web.archive.org/web/20261114040512/https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-1c97944269840586"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:51:07.669Z",
+      "replay_final_url": "https://web.archive.org/web/20261114040512/https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-1c88de4ff68153ea",
+      "source_ids": [
+        "D13"
+      ],
+      "requested_canonical_urls": [
+        "https://www.datos.gob.mx/dataset/proyecciones-de-poblacion"
+      ],
+      "captured_source_url": "https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+      "snapshot_timestamp": "20261114042329",
+      "snapshot_url": "https://web.archive.org/web/20261114042329/https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-ac9647ee52e6a96b"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:51:39.66Z",
+      "replay_final_url": "https://web.archive.org/web/20261114042329/https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-e3741b77cb54844f",
+      "source_ids": [
+        "D16a",
+        "D16b"
+      ],
+      "requested_canonical_urls": [
+        "https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es"
+      ],
+      "captured_source_url": "https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es",
+      "snapshot_timestamp": "20261114040645",
+      "snapshot_url": "https://web.archive.org/web/20261114040645/https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-1ca105399757f6a9"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:52:08.803Z",
+      "replay_final_url": "https://web.archive.org/web/20261114040645/https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es",
+      "replay_status": "loaded_exact"
+    },
+    {
+      "id": "WB-NEW-1cdcf2d289e910b2",
+      "source_ids": [
+        "D10"
+      ],
+      "requested_canonical_urls": [
+        "https://zenodo.org/records/23150556"
+      ],
+      "captured_source_url": "https://zenodo.org/records/23150556",
+      "snapshot_timestamp": "20261114040824",
+      "snapshot_url": "https://web.archive.org/web/20261114040824/https://zenodo.org/records/23150556",
+      "service_capture_confirmed": true,
+      "account_verified": false,
+      "replay_verified": true,
+      "registration_delayed_reported": true,
+      "attempt_ids": [
+        "WB-BROWSER-dda0bbee9c4695b3"
+      ],
+      "result_screenshots": [],
+      "bytes_verified": false,
+      "replay_checked_at_utc": "2026-11-14T17:52:26.664Z",
+      "replay_final_url": "https://web.archive.org/web/20261114040824/https://zenodo.org/records/23150556",
+      "replay_status": "loaded_exact"
+    }
+  ]
+}

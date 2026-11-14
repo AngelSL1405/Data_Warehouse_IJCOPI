@@ -93,16 +93,46 @@ Open-Meteo request URL is not recorded, so it is not invented or regenerated.
 An inferred landing page remains labelled unverified until separately checked.
 
 `procedencia_web.json` links source IDs to publisher-page captures under
-`capturas/`. `wayback.json`, when present, records archive capture attempts and
-results. Both can be updated independently of the pinned scientific bytes. A live
+`capturas/`. `wayback.json` records the earlier public Availability API checks.
+Both can be updated independently of the pinned scientific bytes. A live
 page screenshot or an archive request is not proof of historical retrieval, and
 a failed or pending archive request is not a successful capture.
 
-The [browser-attempt record](wayback_intentos_browser.json) documents the Save Page
-Now internal errors observed on 13 November 2026 and the successfully opened,
-pre-existing SACMEX snapshot. The [retry queue](wayback_pendientes.csv) distinguishes
-URLs with no available snapshot reported from URLs with an existing snapshot.
-No new Wayback capture was confirmed during this preservation session.
+The [browser-attempt history](wayback_intentos_browser.json) preserves the original
+failed attempts and the subsequent serial Save Page Now outcomes. The
+[new-capture report](wayback_capturas_nuevas.json) records 18 snapshots reported as
+captured after 26 canonical source URLs were submitted one at a time on
+13–14 November 2026. Eight pages returned HTTP 503 to Wayback: the two SACMEX
+pages and six INEGI pages. The new snapshots cover the source pages associated
+with 40 of the 65 logical inputs; this is not preservation of their download bytes.
+
+Every submission selected **Save also in my web archive**, with outlink capture
+and error-page capture disabled. Nevertheless, no new corpus link was visible
+in the account's Web Archives at the final check on 14 November 2026, 16:13 UTC.
+Wayback reported delayed registration. Account visibility remains unconfirmed;
+17 exact November page replays were opened successfully. Capture, account visibility
+and replay verification are independent observations. The [index](INDICE.md)
+links the new snapshots alongside, without replacing, the earlier Availability
+results. The [earlier retry list](wayback_pendientes.csv) remains a historical
+Availability result, not the outcome of this serial batch.
+
+The [dated consultation register (CSV)](consultas_fuentes_y_snapshots.csv) and
+[JSON register](consultas_fuentes_y_snapshots.json) contain the original URL and
+its actual consultation timestamp, the snapshot URL and capture timestamp, and
+the snapshot consultation timestamp. Dates are recorded in UTC and
+America/Mexico_City. Missing consultation dates remain empty; Availability API
+checks do not count as opening a snapshot. Earlier observed source-page dates
+are retained rather than represented as fresh visits.
+
+The subsequent retry of the eight missing pages again returned HTTP 503 for all
+eight; its dated outcomes are appended to the browser-attempt history. The
+[Huerta PDF verification](verificacion_huerta.json) confirms that the existing
+21 February 2026 snapshot contains the complete 38-page article. Its 5,132,456
+bytes and SHA-256 match both the pinned corpus input and the publisher PDF
+consulted on 14 November 2026. The blank browser viewer was not evidence of a
+missing PDF. The November URL redirects to this older capture; the February
+verification does not establish an exact November replay. No new capture of
+the Huerta article was requested during this verification.
 
 Wayback checks and retry lists are restricted to the source URLs associated with
 the 65 corpus input IDs. Bibliography-only URLs and visual-attribution pages are

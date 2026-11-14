@@ -107,8 +107,8 @@ def unique_wayback_checks(checks):
     return sorted(by_url.values(), key=lambda check: (order[wayback_destination(check)], check["url"]))
 
 
-def wayback_cell(checks):
-    if not checks:
+def wayback_cell(checks, new_captures=()):
+    if not checks and not new_captures:
         return "Pending: no archive result recorded."
     parts = []
     for check in unique_wayback_checks(checks):
@@ -130,6 +130,23 @@ def wayback_cell(checks):
             else:
                 state = "No snapshot reported"
         parts.append("{} — {}".format(destination, state))
+    for capture in new_captures:
+        timestamp = capture.get("snapshot_timestamp") or ""
+        if capture.get("service_capture_confirmed") is not True or not re.fullmatch(r"\d{14}", timestamp):
+            raise ValueError("New capture lacks service confirmation or timestamp")
+        date = "{}-{}-{}".format(timestamp[:4], timestamp[4:6], timestamp[6:8])
+        account = "account verified" if capture.get("account_verified") is True else "account visibility unconfirmed"
+        replay = "replay verified" if capture.get("replay_verified") is True else "replay unverified"
+        parts.append("{} (service confirmed; {}; {})".format(
+            external_link("New snapshot " + date, capture["snapshot_url"]), account, replay))
+        fallback = capture.get("verified_fallback_snapshot")
+        if fallback:
+            old_date = fallback["timestamp"]
+            if not fallback.get("bytes_verified") or not re.fullmatch(r"\d{14}", old_date):
+                raise ValueError("Verified fallback lacks byte verification or timestamp")
+            old_date = "{}-{}-{}".format(old_date[:4], old_date[4:6], old_date[6:8])
+            parts.append("{} (complete PDF; bytes match corpus; November replay redirects here)".format(
+                external_link("Verified older snapshot " + old_date, fallback["url"])))
     return "<br>".join(parts)
 
 
@@ -142,8 +159,10 @@ def build(root):
         raise ValueError("Expected 65 unique logical input rows")
     pages = read_json(root / "procedencia_web.json", {"captures": []})
     wayback = read_json(root / "wayback.json", {"checks": []})
+    browser = read_json(root / "wayback_capturas_nuevas.json", {"captures": []})
     captures = grouped_evidence(pages.get("captures", []), ids | RELATED_VISUAL_IDS, "publisher-page")
     checks = grouped_evidence(wayback.get("checks", []), ids | RELATED_VISUAL_IDS, "Wayback")
+    new_captures = grouped_evidence(browser.get("captures", []), ids, "new Wayback capture")
     preserved = sum(source["availability"] == "preserved" for source in sources)
     missing = [source["id"] for source in sources if source["availability"] != "preserved"]
     lines = ["# Preserved inputs and provenance", "",
@@ -151,6 +170,8 @@ def build(root):
              "**Input bytes preserved: {}/65.** {}".format(preserved, "The input corpus is complete." if not missing else "Missing exact inputs: **{}**.".format(", ".join(missing))), "",
              "The [catalogue](catalogo.json), [CSV catalogue](catalogo.csv) and [unchanged scientific manifest](manifiestos/fuentes.json) record sizes, checksums, licences and citations. See the [verification and restoration instructions](README.md). A current publisher page, screenshot or Wayback page does not certify the bytes or historical retrieval date of an input file. Archive checks do not verify dataset bytes.", "",
              "Download links identify the documented file endpoint; an **upstream ZIP** is the origin of the retained ITER extract, not a direct download of that extract. The exact original Open-Meteo request URL is not recorded. Missing or blocked evidence remains explicit.", "",
+             "Earlier Availability checks are retained below. Subsequent serial Save Page Now outcomes are recorded in the [browser-attempt history](wayback_intentos_browser.json) and [new-capture report](wayback_capturas_nuevas.json). A service-confirmed capture, account visibility and a verified replay are separate states; delayed registration does not establish immediate accessibility.", "",
+             "Original-page consultation dates, snapshot capture dates and snapshot consultation dates are recorded separately in the [dated CSV register](consultas_fuentes_y_snapshots.csv) and [JSON register](consultas_fuentes_y_snapshots.json).", "",
              "| ID | Input file and size | Preserved bytes | Download / origin | Publisher-page evidence | Wayback |",
              "| --- | --- | --- | --- | --- | --- |"]
     split_sources = []
@@ -174,7 +195,7 @@ def build(root):
         url = source.get("download_url")
         download = external_link("Upstream ZIP" if source.get("download_role") == "documented_upstream_download" else "Download", url) if url else "Exact download not recorded"
         row = [identifier, "{} ({:,} bytes)".format(label(source["original_filename"]), source["expected"]["bytes"]),
-               storage, download, page_cell(root, source, captures[identifier]), wayback_cell(checks[identifier])]
+               storage, download, page_cell(root, source, captures[identifier]), wayback_cell(checks[identifier], new_captures[identifier])]
         lines.append("| " + " | ".join(row) + " |")
     related = [identifier for identifier in sorted(RELATED_VISUAL_IDS) if captures[identifier] or checks[identifier]]
     if related:

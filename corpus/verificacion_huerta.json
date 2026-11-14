@@ -1,0 +1,32 @@
+{
+  "requested_url": "https://web.archive.org/web/20260221163754if_/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+  "operation": "Read existing February snapshot only; no Save Page Now request",
+  "consulted_at_utc": "2026-11-14T18:07:08.071494+00:00",
+  "final_url": "https://web.archive.org/web/20260221163754if_/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "bytes": 5132456,
+  "sha256": "29beee27003f88dd71f85125e249f7c33e2e8a7295d7237fd507cfb291e3b7ff",
+  "status": "pdf_readable",
+  "pages": 38,
+  "extracted_characters": 128013,
+  "pinned_sha256_match": true,
+  "snapshot_url": "https://web.archive.org/web/20260221163754/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+  "snapshot_timestamp": "20260221163754",
+  "publisher_consultation": {
+    "requested_url": "https://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+    "consulted_at_utc": "2026-11-14T18:08:03.548575+00:00",
+    "operation": "Read publisher PDF; no archive save",
+    "final_url": "https://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes": 5132456,
+    "sha256": "29beee27003f88dd71f85125e249f7c33e2e8a7295d7237fd507cfb291e3b7ff",
+    "pinned_sha256_match": true,
+    "status": "pdf_confirmed"
+  },
+  "preserved_corpus_file": "originales/A3/A071021_Huerta.pdf",
+  "article_confirmed": true,
+  "title": "Assessment of vulnerability to water shortage in the municipalities of Mexico City",
+  "note": "The existing February PDF is readable and byte-identical to both the pinned corpus input and the publisher PDF consulted now. No new archive capture was requested for this article."
+}

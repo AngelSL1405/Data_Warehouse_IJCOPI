@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "operation": "Sequential read-only browser review; 15-second pauses between reviews; no Save Page Now submissions",
+  "reviewed": 18,
+  "loaded_exact": 17,
+  "unverified": 1,
+  "download_bytes_verified": false,
+  "results": [
+    {
+      "id": "WB-NEW-93d9dbacbb811a16",
+      "requested_url": "https://web.archive.org/web/20261114040028/https://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+      "final_url": "https://web.archive.org/web/20260221163754/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+      "checked_at_utc": "2026-11-14T17:43:35.665Z",
+      "status": "unverified_redirect_older",
+      "note": "Redirected to 20260221163754; PDF content remained blank in viewer"
+    },
+    {
+      "id": "WB-NEW-af7077e6e0724e53",
+      "requested_url": "https://web.archive.org/web/20261114035811/https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947",
+      "final_url": "https://web.archive.org/web/20261114035811/https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947",
+      "checked_at_utc": "2026-11-14T17:44:04.114Z",
+      "status": "loaded_exact",
+      "note": "Dataset title, authors, description and file list visible"
+    },
+    {
+      "id": "WB-NEW-6f54563a836f786f",
+      "requested_url": "https://web.archive.org/web/20261114041054/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1",
+      "final_url": "https://web.archive.org/web/20261114041054/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1",
+      "checked_at_utc": "2026-11-14T17:44:35.397Z",
+      "status": "loaded_exact",
+      "note": "Average-temperature dataset title, author and description visible"
+    },
+    {
+      "id": "WB-NEW-a0788c1301f13403",
+      "requested_url": "https://web.archive.org/web/20261114040222/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2",
+      "final_url": "https://web.archive.org/web/20261114040222/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2",
+      "checked_at_utc": "2026-11-14T17:45:04.565Z",
+      "status": "loaded_exact",
+      "note": "Maximum-temperature title, author and description visible"
+    },
+    {
+      "id": "WB-NEW-021866f4d9ea1e09",
+      "requested_url": "https://web.archive.org/web/20261114041205/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1",
+      "final_url": "https://web.archive.org/web/20261114041205/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1",
+      "checked_at_utc": "2026-11-14T17:45:32.446Z",
+      "status": "loaded_exact",
+      "note": "Precipitation title, author and description visible"
+    },
+    {
+      "id": "WB-NEW-c0f5f54c93b1ce8b",
+      "requested_url": "https://web.archive.org/web/20261114041303/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1",
+      "final_url": "https://web.archive.org/web/20261114041303/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1",
+      "checked_at_utc": "2026-11-14T17:46:01.399Z",
+      "status": "loaded_exact",
+      "note": "Minimum-temperature title, author and description visible"
+    },
+    {
+      "id": "WB-NEW-4164ad2c2e7ead5d",
+      "requested_url": "https://web.archive.org/web/20261114041401/https://open-meteo.com/en/docs/historical-weather-api",
+      "final_url": "https://web.archive.org/web/20261114041401/https://open-meteo.com/en/docs/historical-weather-api",
+      "checked_at_utc": "2026-11-14T17:47:07.049Z",
+      "status": "loaded_exact",
+      "note": "Historical Weather API heading and documentation visible"
+    },
+    {
+      "id": "WB-NEW-7e8c308db04b3ab3",
+      "requested_url": "https://web.archive.org/web/20261114041504/https://sih.conagua.gob.mx/",
+      "final_url": "https://web.archive.org/web/20261114041504/https://sih.conagua.gob.mx/",
+      "checked_at_utc": "2026-11-14T17:47:40.393Z",
+      "status": "loaded_exact",
+      "note": "SIH headings, description and product tables visible"
+    },
+    {
+      "id": "WB-NEW-0b7e8b105abb2b7c",
+      "requested_url": "https://web.archive.org/web/20261114041702/https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "final_url": "https://web.archive.org/web/20261114041702/https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "checked_at_utc": "2026-11-14T17:48:12.246Z",
+      "status": "loaded_exact",
+      "note": "Monitor de Sequia article, selectors and explanatory text visible; embedded charts/downloads not checked"
+    },
+    {
+      "id": "WB-NEW-f350a32407f0e48b",
+      "requested_url": "https://web.archive.org/web/20261114040354/https://www.datos.gob.mx/dataset/aguas_subterraneas",
+      "final_url": "https://web.archive.org/web/20261114040354/https://www.datos.gob.mx/dataset/aguas_subterraneas",
+      "checked_at_utc": "2026-11-14T17:48:45.215Z",
+      "status": "loaded_exact",
+      "note": "Aguas subterraneas heading, description and resource list visible"
+    },
+    {
+      "id": "WB-NEW-f06e9a32a81d5cc5",
+      "requested_url": "https://web.archive.org/web/20261114041805/https://www.datos.gob.mx/dataset/derechos_agua_municipal",
+      "final_url": "https://web.archive.org/web/20261114041805/https://www.datos.gob.mx/dataset/derechos_agua_municipal",
+      "checked_at_utc": "2026-11-14T17:49:12.972Z",
+      "status": "loaded_exact",
+      "note": "Municipal water-rights heading, description and resource visible"
+    },
+    {
+      "id": "WB-NEW-f3676140ef3e7a72",
+      "requested_url": "https://web.archive.org/web/20261114041949/https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica",
+      "final_url": "https://web.archive.org/web/20261114041949/https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica",
+      "checked_at_utc": "2026-11-14T17:49:42.504Z",
+      "status": "loaded_exact",
+      "note": "Station inventory heading, description and resource list visible"
+    },
+    {
+      "id": "WB-NEW-e03d6b58a7e77c1f",
+      "requested_url": "https://web.archive.org/web/20261114042106/https://www.datos.gob.mx/dataset/indices_marginacion",
+      "final_url": "https://web.archive.org/web/20261114042106/https://www.datos.gob.mx/dataset/indices_marginacion",
+      "checked_at_utc": "2026-11-14T17:50:10.509Z",
+      "status": "loaded_exact",
+      "note": "Marginacion heading, description and resource list visible"
+    },
+    {
+      "id": "WB-NEW-3a84ea4ef57094cd",
+      "requested_url": "https://web.archive.org/web/20261114042225/https://www.datos.gob.mx/dataset/metropolis_mexico_2020",
+      "final_url": "https://web.archive.org/web/20261114042225/https://www.datos.gob.mx/dataset/metropolis_mexico_2020",
+      "checked_at_utc": "2026-11-14T17:50:38.04Z",
+      "status": "loaded_exact",
+      "note": "Metropolis heading, description and resource list visible"
+    },
+    {
+      "id": "WB-NEW-3d701b123f0fc618",
+      "requested_url": "https://web.archive.org/web/20261114040512/https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose",
+      "final_url": "https://web.archive.org/web/20261114040512/https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose",
+      "checked_at_utc": "2026-11-14T17:51:07.669Z",
+      "status": "loaded_exact",
+      "note": "PRONACOSE heading, description and resource list visible"
+    },
+    {
+      "id": "WB-NEW-1c88de4ff68153ea",
+      "requested_url": "https://web.archive.org/web/20261114042329/https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+      "final_url": "https://web.archive.org/web/20261114042329/https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+      "checked_at_utc": "2026-11-14T17:51:39.66Z",
+      "status": "loaded_exact",
+      "note": "Population projections heading, description and resources visible"
+    },
+    {
+      "id": "WB-NEW-e3741b77cb54844f",
+      "requested_url": "https://web.archive.org/web/20261114040645/https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es",
+      "final_url": "https://web.archive.org/web/20261114040645/https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es",
+      "checked_at_utc": "2026-11-14T17:52:08.803Z",
+      "status": "loaded_exact",
+      "note": "Indicadores de Calidad del Agua heading and explanatory article visible"
+    },
+    {
+      "id": "WB-NEW-1cdcf2d289e910b2",
+      "requested_url": "https://web.archive.org/web/20261114040824/https://zenodo.org/records/23150556",
+      "final_url": "https://web.archive.org/web/20261114040824/https://zenodo.org/records/23150556",
+      "checked_at_utc": "2026-11-14T17:52:26.664Z",
+      "status": "loaded_exact",
+      "note": "Hidro-MX v2026.10 title, publication/version and authors visible"
+    }
+  ],
+  "subsequent_pdf_verification": {
+    "evidence_file": "verificacion_huerta.json",
+    "article_confirmed": true,
+    "verified_snapshot_url": "https://web.archive.org/web/20260221163754/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+    "checked_at_utc": "2026-11-14T18:07:08.071494+00:00",
+    "note": "The earlier blank-viewer observation remains historical; direct PDF reading confirms February, not an exact November replay."
+  }
+}

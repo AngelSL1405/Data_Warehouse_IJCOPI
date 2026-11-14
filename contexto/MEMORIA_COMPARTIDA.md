@@ -1,6 +1,6 @@
 # Memoria compartida: IJCOPI de agua
 
-Actualizada: 13 de noviembre de 2026. Hablar con Gabriel en español y brevemente.
+Actualizada: 14 de noviembre de 2026. Hablar con Gabriel en español y brevemente.
 Leer AGENTS.md completo. Esta memoria es el relevo vigente; sus resultados históricos
 no equivalen a verificaciones nuevas. Las rutas dependen de la PC: usar carpetas hermanas.
 
@@ -48,6 +48,70 @@ DDL y verificadores. warehouse/: componente original de Omar Fernando Pulido Mor
 con su licencia MIT. El workflow publica un git archive de main, sin commits automáticos.
 
 ## Estado actual
+
+- **Cierre Git autorizado del registro, 14 nov 2026:** Gabriel autorizó un commit y push en main del registro del corpus y verificaciones, con identidad humana y sin firma ni créditos automáticos. Gate original intacto: 25 enlaces, único fallo ADIP 403; AZCATL 200. Se aplica la excepción expresa sólo a este push. QA: cuatro pruebas del índice pasan; 26 páginas/65 ID con fechas reales, 17 replays exactos y PDF Huerta de febrero íntegro. Sólo se incluyen metadatos públicos, índice/generador y esta continuidad; tmp, pruebas de navegador y prompt de obras quedan fuera. Este permiso se consume al ejecutar este cierre; no autoriza más commits ni acciones en obras públicas. Para saber si ya cerró, consultar Git y origin/main; no repetir acciones.
+
+- **Cierre de fuentes y PDF, 14 nov 2026:** ocho páginas pendientes reintentadas serialmente con pausas; todas devolvieron HTTP 503, cero nuevas capturas. Después se leyó el PDF archivado de Huerta de 21 febrero 2026: HTTP 200, 38 páginas, 5,132,456 bytes y SHA-256 exacto al pin del corpus y al original del editor consultado ahora. El visor en blanco NO implicaba PDF ausente. Verificación en corpus/verificacion_huerta.json. El enlace de noviembre sigue redirigiendo a febrero: no afirmar fecha nueva. Registro corpus/consultas_fuentes_y_snapshots.csv y .json: 26 páginas/65 ID, originales con fechas reales previas o lectura directa, fechas de captura y consulta de snapshots separadas, UTC y America/Mexico_City; sin inventar consultas de snapshots antiguos no abiertos. 17 replays exactos de noviembre y 1 PDF completo de febrero. Sin nuevo guardado del artículo, commit ni push.
+
+- **Lectura de los 18 snapshots, 14 nov 2026:** revisados en Edge uno por uno, con pausas de 15 segundos y sin Save Page Now. 17 cargan contenido en la fecha exacta de noviembre. El PDF A3 de Huerta redirige a 20260221163754 y el visor queda en blanco: su contenido no se da por verificado. Informe público local en corpus/wayback_verificacion_lectura.json; DOM privado en tmp/wayback_lectura_2026-11-14/. Los archivos descargables enlazados no se comprobaron; cuenta sigue sin confirmar. Sin commit/push.
+
+- **Reintento Wayback SERIAL completado (13–14 nov, sólo fuentes del corpus):**
+  26 URL canónicas cubren las páginas de origen de los 65 insumos. Una solicitud
+  a la vez, esperando el resultado antes de iniciar otra; sin capturar outlinks,
+  bibliografía, OSM ni páginas ajenas. Save Page Now confirmó **18 capturas nuevas**
+  asociadas con 40 insumos; ocho páginas devolvieron HTTP 503 a Wayback: consumo
+  y reportes de SACMEX y las seis páginas del INEGI. No se repitieron en bucle.
+  Los resultados se conservaron en `corpus/wayback_capturas_nuevas.json` y se
+  añadieron al historial de intentos sin borrar los dos errores iniciales.
+  El índice muestra los enlaces nuevos junto a la evidencia histórica intacta.
+
+- **Web Archives de la cuenta sigue PENDIENTE:** en cada solicitud se activó
+  `Save also in my web archive`; Wayback confirmó la opción durante el proceso.
+  Aun así, la comprobación final del 14 nov, 16:13 UTC, no encontró enlaces nuevos
+  del corpus en esa pestaña. El servicio reportó demora de registro. No afirmar
+  que ya aparecen en la cuenta. Sí se abrió el replay InSAR nuevo exacto
+  `20261114035811` con contenido visible. Cuenta, replay y captura son estados
+  independientes; ninguno certifica los bytes originales de los datos.
+  Evidencias privadas: `tmp/wayback_serial_2026-11-13/`; no publicar el perfil.
+  Los metadatos nuevos quedan sólo LOCALES: no hubo nuevo commit, push ni permiso Git.
+
+- **Cierre del corpus COMPLETADO en Git y Pages (13 nov 2026):** commit y push en
+  IJCOPI/main `d5c33aee8403b5eca02b66238fc58070bb1ec78b`, remoto confirmado por
+  la revisión principal. Autor y committer humanos: Gabriel Hurtado; sin firma,
+  trailers, coautorías ni créditos automáticos de IA. Verificador Springer original
+  intacto antes del push: 25 enlaces y cero fallos; ADIP y AZCATL HTTP 200. La
+  autorización de este commit/push está CONSUMIDA. La rama anónima `6f723ea` y los
+  originales permanecen intactos; no hay permiso para otras acciones Git.
+
+- **GitHub y Pages COMPROBADOS:** el catálogo público de GitHub contiene
+  `complete=true`, 65/65 insumos. El corpus local ya validado conserva 159 archivos,
+  2,130,015,245 bytes y pines exactos. Pages run `43541108487`, job `132281625642`,
+  terminó `completed/success` para `d5c33aee8403b5eca02b66238fc58070bb1ec78b`.
+  QA pública: `ijcopi/grafo-zm.html` HTTP 200 y SHA-256 idéntico al local;
+  `corpus/catalogo.json` devuelve HTTP 404 en Pages, como exige la exclusión.
+  El corpus sí está completo en GitHub y puede viajar en su ZIP. Evidencia privada:
+  `tmp/publicar_corpus_2026-11-13/publicacion_verificada.json` en IJCOPI.
+  Esta nota posterior al cierre queda sólo local, sin otro commit/amend/push.
+
+- **Availability histórico publicado en d5c33ae:** sólo URL de los 65 insumos
+  del corpus: 101 URL, 34 con snapshot previo disponible, 67 sin `closest` disponible,
+  cero errores pendientes y cero capturas nuevas en aquel informe. Se retiraron 27 URL
+  ajenas al corpus. La bibliografía no incluye enlaces Wayback; OSM y la atribución
+  visual quedan fuera de este alcance. Los informes privados anteriores con 128 URL
+  no describen el alcance actual. Ese JSON histórico no se sobrescribió con los
+  reintentos seriales nuevos; sus consultas no certifican los bytes archivados.
+
+- **Privacidad y relevo:** el perfil de Archive mostró Uploads vacío y sólo registros
+  Web Archives anteriores ajenos a este corpus; no se incluyen sus URL ni la captura
+  del perfil en el repositorio. Manuscritos, datos originales, PostgreSQL resuelto
+  el 10 nov y sitios históricos se conservan. El mensaje para obras públicas ya fue
+  entregado como relevo separado; no se editó su repositorio ni se autoriza Git allí.
+  Evidencias privadas del gate/perfil: IJCOPI/tmp/publicar_corpus_2026-11-13/;
+  inventario y QA locales: IJCOPI/tmp/respaldo_corpus_2026-11-13/.
+
+Los apartados siguientes conservan la preparación anterior al cierre. El permiso Git
+ya se consumió. El informe Availability histórico cubre 101 URL del corpus, no 128;
+el reintento vigente se limitó a las 26 páginas canónicas descritas arriba.
 
 - **Cierre del corpus autorizado (13 nov 2026):** Gabriel autoriza un commit y push
   en IJCOPI/main con su identidad humana, sin firmas, coautorías ni créditos de IA.
@@ -678,6 +742,32 @@ Los registros siguientes son antecedentes; no autorizan acciones Git adicionales
 
 ## Siguiente paso
 
+Cierre vigente: publicar únicamente el commit autorizado del registro si aún no está en origin/main, con el gate 25/1 sólo ADIP autorizado; comprobar el SHA remoto. No repetir el permiso si ya se ejecutó. Las ocho fuentes con 503 y la visibilidad en cuenta siguen pendientes; Huerta está confirmado íntegro en febrero. El prompt de obras públicas se entrega aparte y no autoriza Git en ese proyecto.
+
+Pendiente de esta actualización: ocho guardados siguen fallando con 503. El PDF Huerta de febrero está confirmado completo e idéntico al corpus; no volver a tratarlo como ausente. Conservar las fechas y enlaces del registro de consultas. Cuenta continúa sin confirmación nueva. Cualquier otro guardado o acción Git necesita la instrucción correspondiente de Gabriel.
+
+Pendiente de esta revisión de lectura: aclarar el PDF A3 que redirige a febrero y no muestra contenido. 17/18 páginas cargan en sus fechas exactas; no se verificaron sus descargas. No crear nuevas capturas ni reintentar guardados sin petición de Gabriel. Cuenta y publicación Git son pendientes separados.
+
+Cierre de commit, push y Pages completado en `d5c33ae`; publicación y exclusión del
+corpus verificadas. El permiso está consumido: no repetir Git ni crear otro commit
+para guardar esta actualización local.
+
+Pendiente vigente al 14 nov: comprobar más adelante la aparición de las 18 capturas
+nuevas en Web Archives de la cuenta; no repetir capturas sólo para refrescar la lista.
+Si los orígenes vuelven a responder a Wayback, reintentar por separado las ocho
+páginas con HTTP 503, siempre una a la vez y esperando. No volver a la cola amplia
+de 101 URL ni incluir bibliografía, OSM o registros personales. Los 34 snapshots
+históricos de Availability y las 18 confirmaciones nuevas son evidencias distintas.
+No reabrir PostgreSQL ni el envío ya resueltos. Los nuevos informes y el índice
+están locales; cualquier commit/push requiere autorización expresa nueva.
+
+El relevo de obras públicas ya se entregó como mensaje; su repositorio sigue intacto.
+Todo commit, push, despliegue adicional o correo futuro necesita autorización
+expresa nueva. Conservar originales y evidencias privadas fuera del repositorio.
+
+Las instrucciones de preparación siguientes son antecedentes anteriores al cierre
+`d5c33ae`; sus permisos y pendientes de commit/push no se vuelven a ejecutar.
+
 Completar el único cierre autorizado del corpus en main y comprobar su remoto y
 Pages. Wayback sigue limitado al corpus y pendiente de nuevas capturas confirmadas.
 El mensaje para el artículo de obras públicas es un relevo separado: la autorización
@@ -757,6 +847,30 @@ de editar. No tratar sus recomendaciones como hechos ni como autorización de Gi
    para cambios posteriores. No enviar correos ni publicar el paper automáticamente.
 
 ## Bitácora
+
+- 2026-11-14: cierre del registro autorizado con identidad Git humana, sin firmas/créditos automáticos. Verificador original: 25/1, únicamente ADIP 403 permitido expresamente; AZCATL 200. QA del índice y metadatos aprobada. Prompt preparado aparte para obras públicas a partir de sus registros existentes, sin editar ese repositorio ni transferir la autorización Git.
+
+- 2026-11-14: reintento serial autorizado de ocho páginas, todas 503. Luego verificado PDF Huerta de febrero por lectura directa y comparación completa SHA-256 con pin y editor: 38 páginas idénticas. Registro de originales/snapshots con fechas de consulta y captura en corpus, sin inventar fechas ni nuevos guardados del PDF. Metadatos/índice actualizados sólo localmente, sin commit/push.
+
+- 2026-11-14: revisión serial de lectura de los 18 enlaces, con pausas y cero solicitudes de guardado. 17 cargan en fechas exactas; PDF Huerta redirige a febrero y queda en blanco. Informe y metadatos actualizados sólo localmente; sin Git ni cambios científicos.
+
+- 2026-11-14: por petición de Gabriel, reintento serial de 26 páginas canónicas
+  del corpus; 18 capturas reportadas por Wayback, ocho HTTP 503 (dos SACMEX,
+  seis INEGI). Opción de guardar en cuenta activada siempre; ninguna nueva visible
+  en Web Archives al cierre 16:13 UTC. Replay InSAR nuevo abierto correctamente.
+  Historial previo conservado y Availability intacto. Índice/README e informes
+  actualizados sólo localmente, sin nuevo commit, push ni cambios al manuscrito.
+
+- 2026-11-13: cierre del corpus completado en IJCOPI/main `d5c33ae`, commit/push
+  humanos de Gabriel sin firma ni trailers/créditos de IA; remoto confirmado y gate
+  Springer 25/0, ADIP/AZCATL 200. Catálogo público `complete=true`, 65/65. Wayback
+  restringido a 101 URL del corpus (34 existentes, 67 sin disponibilidad, cero nuevas),
+  excluidas 27 ajenas; bibliografía sin Wayback y OSM fuera del alcance. Perfil revisado
+  sin incorporar registros ni capturas privados. Pages 43541108487/job 132281625642
+  completed/success para d5c33ae; grafo HTTP 200 y SHA local exacto, corpus HTTP 404
+  en Pages y completo en GitHub. Evidencia publicacion_verificada.json privada.
+  Permiso Git consumido; continuidad posterior sólo local, sin nuevas acciones Git.
+  Relevo de obras entregado como mensaje; su repositorio no se editó.
 
 - 2026-11-13: Gabriel autorizó commit y push humano del corpus y restringió Wayback
   a fuentes del corpus. Filtradas las consultas/colas a 101 URL (34 existentes, 67 sin
