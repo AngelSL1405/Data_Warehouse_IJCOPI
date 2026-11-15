@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-11-15T08:11:25.520667+00:00",
+  "generation_date_note": "Build time of these local wrappers; source images retain their original capture dates.",
+  "method": "Offline visual copies from previously preserved public screenshots; no network access or new Wayback saves",
+  "limitations": "A screenshot preserves the visible captured area, not the complete scrolling page or interactive application. Exact corpus input bytes are linked separately.",
+  "summary": {
+    "source_pages": 26,
+    "logical_inputs": 65,
+    "missing_ids": []
+  },
+  "copies": [
+    {
+      "sequence": 1,
+      "source_ids": [
+        "ORIGINAL_SACMEX_2019"
+      ],
+      "path": "copias_locales/01_sacmex_consumo.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/sacmex_consumo.jpg",
+      "screenshot_sha256": "d80998d07c0905a74e821a904a567f50a247fa439a787ed634ad1a3d27c24217",
+      "evidence_captured_at_utc": "2026-11-14T00:21:31.437Z",
+      "original_url": "https://datos.cdmx.gob.mx/dataset/consumo-agua",
+      "original_consulted_at_utc": "2026-11-14T00:21:31.437Z",
+      "snapshot_url": "https://web.archive.org/web/20250905213619/https://datos.cdmx.gob.mx/dataset/consumo-agua",
+      "snapshot_captured_at_utc": "2025-09-05T21:36:19+00:00",
+      "snapshot_consulted_at_utc": "2026-11-15T00:41:19.235Z",
+      "snapshot_status": "older_snapshot_loaded",
+      "bytes": 3444,
+      "sha256": "d92552a40e5c575fdf086f3ba98a0c686b6e28072c42781b2ba7d5120f5cfb74"
+    },
+    {
+      "sequence": 2,
+      "source_ids": [
+        "A2"
+      ],
+      "path": "copias_locales/02_insar_virginiatech.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/insar_virginiatech.jpg",
+      "screenshot_sha256": "2f537516c5ce18d3a4ea6102ff18801b56c0c1e0524baea60f634d575b147a93",
+      "evidence_captured_at_utc": "2026-11-14T00:28:09.235Z",
+      "original_url": "https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947",
+      "original_consulted_at_utc": "2026-11-14T00:28:09.235Z",
+      "snapshot_url": "https://web.archive.org/web/20261114035811/https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947",
+      "snapshot_captured_at_utc": "2026-11-14T03:58:11+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:44:04.114Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3728,
+      "sha256": "a02939fc6729c00c69354506766d1c5a0afb0ea613d3e978bc9ba33311c32ead"
+    },
+    {
+      "sequence": 3,
+      "source_ids": [
+        "A3"
+      ],
+      "path": "copias_locales/03_huerta_pdf_preview.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/huerta_pdf_preview.jpg",
+      "screenshot_sha256": "2a3a52544a7c4f3851918173efd396ce65c17b640ea35aadb14f645675d84e06",
+      "evidence_captured_at_utc": "2026-11-14T00:33:01.834Z",
+      "original_url": "https://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+      "original_consulted_at_utc": "2026-11-14T18:08:03.548575+00:00",
+      "snapshot_url": "https://web.archive.org/web/20260221163754/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
+      "snapshot_captured_at_utc": "2026-02-21T16:37:54+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T18:07:08.071494+00:00",
+      "snapshot_status": "pdf_article_and_bytes_verified",
+      "bytes": 3777,
+      "sha256": "8e6d0b7c0b372405609b35fcd320a84d1d8507542cff173c379dc00ed0fac533"
+    },
+    {
+      "sequence": 4,
+      "source_ids": [
+        "A1x"
+      ],
+      "path": "copias_locales/04_mexhires_tmax.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/mexhires_tmax.jpg",
+      "screenshot_sha256": "4b552e1e66a65818d8bca7208e615caa82a15df269597752d97fcf3fb4d240c8",
+      "evidence_captured_at_utc": "2026-11-14T00:28:05.154Z",
+      "original_url": "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2",
+      "original_consulted_at_utc": "2026-11-14T00:28:05.154Z",
+      "snapshot_url": "https://web.archive.org/web/20261114040222/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2",
+      "snapshot_captured_at_utc": "2026-11-14T04:02:22+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:45:04.565Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 5183,
+      "sha256": "3f9657c8df71ddac356f631679aaf989911cc07c02163dfc4026629fe3ef7c05"
+    },
+    {
+      "sequence": 5,
+      "source_ids": [
+        "D5",
+        "D6"
+      ],
+      "path": "copias_locales/05_conagua_subterraneas.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/conagua_subterraneas.jpg",
+      "screenshot_sha256": "94baebdf8521273ba43d1b7e117b93977df1ec067723353f27022d3e646a96f6",
+      "evidence_captured_at_utc": "2026-11-14T00:52:38.203Z",
+      "original_url": "https://www.datos.gob.mx/dataset/aguas_subterraneas",
+      "original_consulted_at_utc": "2026-11-14T00:52:38.203Z",
+      "snapshot_url": "https://web.archive.org/web/20261114040354/https://www.datos.gob.mx/dataset/aguas_subterraneas",
+      "snapshot_captured_at_utc": "2026-11-14T04:03:54+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:48:45.215Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3639,
+      "sha256": "d98be7f9559fc7aee3e42359578071bb475c760141933a61251cf1c676c17424"
+    },
+    {
+      "sequence": 6,
+      "source_ids": [
+        "D8a",
+        "D8b",
+        "D8c"
+      ],
+      "path": "copias_locales/06_conagua_pronacose.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/conagua_pronacose.jpg",
+      "screenshot_sha256": "edb306057aa162da672de4bbac1597a6510685a9294021c34ebc111148b89f14",
+      "evidence_captured_at_utc": "2026-11-14T00:50:47.63Z",
+      "original_url": "https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose",
+      "original_consulted_at_utc": "2026-11-14T00:50:47.63Z",
+      "snapshot_url": "https://web.archive.org/web/20261114040512/https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose",
+      "snapshot_captured_at_utc": "2026-11-14T04:05:12+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:51:07.669Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 4059,
+      "sha256": "c6a206853315044a8333a71fefdf216a85734b858b3ecde644626444d6605f4e"
+    },
+    {
+      "sequence": 7,
+      "source_ids": [
+        "D16a",
+        "D16b"
+      ],
+      "path": "copias_locales/07_conagua_calidad.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/conagua_calidad.jpg",
+      "screenshot_sha256": "bc194a1d36734ef6eebcc6f3efeedbd030af0badbe8066832c46f107dee898ec",
+      "evidence_captured_at_utc": "2026-11-14T00:24:50.086Z",
+      "original_url": "https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es",
+      "original_consulted_at_utc": "2026-11-14T00:24:50.086Z",
+      "snapshot_url": "https://web.archive.org/web/20261114040645/https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es",
+      "snapshot_captured_at_utc": "2026-11-14T04:06:45+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:52:08.803Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 4007,
+      "sha256": "6ab433dbfdaea3c8362e26088c33787c2478a3868b4ca3bed02edf4530d864c1"
+    },
+    {
+      "sequence": 8,
+      "source_ids": [
+        "D10"
+      ],
+      "path": "copias_locales/08_hidromx_zenodo.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/hidromx_zenodo.jpg",
+      "screenshot_sha256": "1abacc7329de848fa7d8cb32518666e43ed91b14b270c7a5a890a68aaaf94ec3",
+      "evidence_captured_at_utc": "2026-11-14T00:28:37.244Z",
+      "original_url": "https://zenodo.org/records/23150556",
+      "original_consulted_at_utc": "2026-11-14T00:28:37.244Z",
+      "snapshot_url": "https://web.archive.org/web/20261114040824/https://zenodo.org/records/23150556",
+      "snapshot_captured_at_utc": "2026-11-14T04:08:24+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:52:26.664Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 6723,
+      "sha256": "edc5531b24abc3469a5cbaa87dbcdef4281919c1f0ddbf0325d35195ee11870d"
+    },
+    {
+      "sequence": 9,
+      "source_ids": [
+        "C1h",
+        "C1i"
+      ],
+      "path": "copias_locales/09_sacmex_reportes.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/sacmex_reportes.jpg",
+      "screenshot_sha256": "759f5a2cb5454e6d7a475b827b337a26ffadcb0df9eb6f0b3df9095c5397683e",
+      "evidence_captured_at_utc": "2026-11-14T00:28:39.131Z",
+      "original_url": "https://datos.cdmx.gob.mx/dataset/reportes-de-agua",
+      "original_consulted_at_utc": "2026-11-14T00:28:39.131Z",
+      "snapshot_url": "http://web.archive.org/web/20251206091609/https://www.datos.cdmx.gob.mx/dataset/reportes-de-agua",
+      "snapshot_captured_at_utc": "2025-12-06T09:16:09+00:00",
+      "snapshot_consulted_at_utc": "2026-11-15T00:42:09.482Z",
+      "snapshot_status": "older_snapshot_loaded",
+      "bytes": 3896,
+      "sha256": "9f23f1e9e2201f8f937d54c0b526895280b72ded1f1842777515085a39f22e99"
+    },
+    {
+      "sequence": 10,
+      "source_ids": [
+        "A1a"
+      ],
+      "path": "copias_locales/10_mexhires_tmedia.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/mexhires_tmedia.jpg",
+      "screenshot_sha256": "7c055a03662bb3e22b1951895f3c9be70b563c1f6265bad43c713bd452ee5373",
+      "evidence_captured_at_utc": "2026-11-14T00:26:38.566Z",
+      "original_url": "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1",
+      "original_consulted_at_utc": "2026-11-14T00:26:38.566Z",
+      "snapshot_url": "https://web.archive.org/web/20261114041054/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1",
+      "snapshot_captured_at_utc": "2026-11-14T04:10:54+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:44:35.397Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 4431,
+      "sha256": "41bcc9cdc1f3821196f36e9e14c996cdce56a8788e7c3972e8ba2a86b378c642"
+    },
+    {
+      "sequence": 11,
+      "source_ids": [
+        "A1p"
+      ],
+      "path": "copias_locales/11_mexhires_precipitacion.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/mexhires_precipitacion.jpg",
+      "screenshot_sha256": "8b1058c3fd856a33a2902f94317147dbb9b307a5a4db61bc192da450636ea7ac",
+      "evidence_captured_at_utc": "2026-11-14T00:28:04.077Z",
+      "original_url": "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1",
+      "original_consulted_at_utc": "2026-11-14T00:28:04.077Z",
+      "snapshot_url": "https://web.archive.org/web/20261114041205/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1",
+      "snapshot_captured_at_utc": "2026-11-14T04:12:05+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:45:32.446Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 4330,
+      "sha256": "e7087b2680c53c8e2aa98a23c47808ef8590b25990d0b3df27de320232bed0f7"
+    },
+    {
+      "sequence": 12,
+      "source_ids": [
+        "A1n"
+      ],
+      "path": "copias_locales/12_mexhires_tmin.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/mexhires_tmin.jpg",
+      "screenshot_sha256": "00772c5313164e9ad058259978ffb0877a105a56a7e9982063e628e21e9954d6",
+      "evidence_captured_at_utc": "2026-11-14T00:26:37.434Z",
+      "original_url": "https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1",
+      "original_consulted_at_utc": "2026-11-14T00:26:37.434Z",
+      "snapshot_url": "https://web.archive.org/web/20261114041303/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1",
+      "snapshot_captured_at_utc": "2026-11-14T04:13:03+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:46:01.399Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 4471,
+      "sha256": "f63c0e5e9337f84b144ce3b7e61ceab4ffa1f71fec474f77a262e3262a03c240"
+    },
+    {
+      "sequence": 13,
+      "source_ids": [
+        "ORIGINAL_OPENMETEO_2019"
+      ],
+      "path": "copias_locales/13_openmeteo.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/openmeteo.jpg",
+      "screenshot_sha256": "20f9d40fae5620a75eae6541bdd49095a11df7dbaca6ea8e1c0354181a9f57a1",
+      "evidence_captured_at_utc": "2026-11-14T00:20:51.085Z",
+      "original_url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "original_consulted_at_utc": "2026-11-14T00:20:51.085Z",
+      "snapshot_url": "https://web.archive.org/web/20261114041401/https://open-meteo.com/en/docs/historical-weather-api",
+      "snapshot_captured_at_utc": "2026-11-14T04:14:01+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:47:07.049Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3489,
+      "sha256": "970fb975fb379abd45a5191609db190d8aaf8eedd08ad7d6ada0597cc9f6b0de"
+    },
+    {
+      "sequence": 14,
+      "source_ids": [
+        "D14CNPMX",
+        "D14DBOMC",
+        "D14DNXMX",
+        "D14GDLMX",
+        "D14HPNMX",
+        "D14PFBMX",
+        "D14PIRMX",
+        "D14PMDMX",
+        "D14PMNMX",
+        "D14PNDMX",
+        "D14SBBMX",
+        "D14TPTMX",
+        "D14TXMHD",
+        "D14VBRMX",
+        "D14VVCMX"
+      ],
+      "path": "copias_locales/14_conagua_sih_portal.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/conagua_sih_portal.jpg",
+      "screenshot_sha256": "64fa1ec2ffbe385d0b10dd2d2eb3228332f033a9be29591d9c96110df5dcd14c",
+      "evidence_captured_at_utc": "2026-11-14T00:33:04.309Z",
+      "original_url": "https://sih.conagua.gob.mx/",
+      "original_consulted_at_utc": "2026-11-14T00:33:04.309Z",
+      "snapshot_url": "https://web.archive.org/web/20261114041504/https://sih.conagua.gob.mx/",
+      "snapshot_captured_at_utc": "2026-11-14T04:15:04+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:47:40.393Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 6878,
+      "sha256": "fabf1030b27460d69ee4f75dbb0147820a1edc455498679aec1c1171732c2f15"
+    },
+    {
+      "sequence": 15,
+      "source_ids": [
+        "D7"
+      ],
+      "path": "copias_locales/15_smn_sequia.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/smn_sequia.jpg",
+      "screenshot_sha256": "8ae8d75d12a973c70dbcf9908581f9196d5fb5f4d9b3e21a73b349e1f8085892",
+      "evidence_captured_at_utc": "2026-11-14T00:24:53.081Z",
+      "original_url": "https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "original_consulted_at_utc": "2026-11-14T00:24:53.081Z",
+      "snapshot_url": "https://web.archive.org/web/20261114041702/https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
+      "snapshot_captured_at_utc": "2026-11-14T04:17:02+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:48:12.246Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3551,
+      "sha256": "84325d8214f432f865e9a209425fe317ed8f832c019b4f0a23a0ea5f5c2c404b"
+    },
+    {
+      "sequence": 16,
+      "source_ids": [
+        "D4"
+      ],
+      "path": "copias_locales/16_shcp_derechos.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/shcp_derechos.jpg",
+      "screenshot_sha256": "83c2afbc87449cecb4aac6da9b81fcaee8cbc7550a219953786ed86373b74e01",
+      "evidence_captured_at_utc": "2026-11-14T00:53:29.711Z",
+      "original_url": "https://www.datos.gob.mx/dataset/derechos_agua_municipal",
+      "original_consulted_at_utc": "2026-11-14T00:53:29.711Z",
+      "snapshot_url": "https://web.archive.org/web/20261114041805/https://www.datos.gob.mx/dataset/derechos_agua_municipal",
+      "snapshot_captured_at_utc": "2026-11-14T04:18:05+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:49:12.972Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3447,
+      "sha256": "7e150b3becf46252c8c46226f62c20295e2cbba760bd5f347c8049f96548edad"
+    },
+    {
+      "sequence": 17,
+      "source_ids": [
+        "D9a",
+        "D9b"
+      ],
+      "path": "copias_locales/17_conagua_sih.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/conagua_sih.jpg",
+      "screenshot_sha256": "bb934077eeb2ab2abb9f9a86f33e9f094e8d6c83ebcac155ac10124b26d97d25",
+      "evidence_captured_at_utc": "2026-11-14T00:24:48.023Z",
+      "original_url": "https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica",
+      "original_consulted_at_utc": "2026-11-14T00:24:48.023Z",
+      "snapshot_url": "https://web.archive.org/web/20261114041949/https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica",
+      "snapshot_captured_at_utc": "2026-11-14T04:19:49+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:49:42.504Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3778,
+      "sha256": "d4036d4485ed5d77540fa903c55a7d5412f5ece475dbea71c88ce576985ee6f1"
+    },
+    {
+      "sequence": 18,
+      "source_ids": [
+        "D11",
+        "D12",
+        "D15"
+      ],
+      "path": "copias_locales/18_conapo_marginacion.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/conapo_marginacion.jpg",
+      "screenshot_sha256": "8b93b63961fb8067795cb454a5c8784d3eadb161ada01ff46890330f3978ebdf",
+      "evidence_captured_at_utc": "2026-11-14T00:24:20.034Z",
+      "original_url": "https://www.datos.gob.mx/dataset/indices_marginacion",
+      "original_consulted_at_utc": "2026-11-14T00:24:20.034Z",
+      "snapshot_url": "https://web.archive.org/web/20261114042106/https://www.datos.gob.mx/dataset/indices_marginacion",
+      "snapshot_captured_at_utc": "2026-11-14T04:21:06+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:50:10.509Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3995,
+      "sha256": "bd51dba44838fc4937f4cba5d155b2ce6f4bef0e8ab8b034ecc4e2d95d14e12d"
+    },
+    {
+      "sequence": 19,
+      "source_ids": [
+        "D1a",
+        "D1b"
+      ],
+      "path": "copias_locales/19_conapo_delimitacion.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/conapo_delimitacion.jpg",
+      "screenshot_sha256": "e3eab1cefbe9a3d3a1d712eed27da1dbbb847be221b78d3911fbf1eaa1c76bf2",
+      "evidence_captured_at_utc": "2026-11-14T00:24:17.563Z",
+      "original_url": "https://www.datos.gob.mx/dataset/metropolis_mexico_2020",
+      "original_consulted_at_utc": "2026-11-14T00:24:17.563Z",
+      "snapshot_url": "https://web.archive.org/web/20261114042225/https://www.datos.gob.mx/dataset/metropolis_mexico_2020",
+      "snapshot_captured_at_utc": "2026-11-14T04:22:25+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:50:38.04Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3677,
+      "sha256": "d185ad7240b90510f52bf9edcb632e67556a9ae2505b9631077bf1a4e64e4766"
+    },
+    {
+      "sequence": 20,
+      "source_ids": [
+        "D13"
+      ],
+      "path": "copias_locales/20_conapo_proyecciones.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/conapo_proyecciones.jpg",
+      "screenshot_sha256": "16736f9cb0182993f196dddca04aa8f8e33bc639a930ad215465e15185b9ed2c",
+      "evidence_captured_at_utc": "2026-11-14T00:24:46.361Z",
+      "original_url": "https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+      "original_consulted_at_utc": "2026-11-14T00:24:46.361Z",
+      "snapshot_url": "https://web.archive.org/web/20261114042329/https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+      "snapshot_captured_at_utc": "2026-11-14T04:23:29+00:00",
+      "snapshot_consulted_at_utc": "2026-11-14T17:51:39.66Z",
+      "snapshot_status": "loaded_exact",
+      "bytes": 3526,
+      "sha256": "3f6051e993a0ca3cf29180d9030b8ccb746a1fc8b8fcb3d5d41a395193747ffd"
+    },
+    {
+      "sequence": 21,
+      "source_ids": [
+        "B11",
+        "B3",
+        "B8"
+      ],
+      "path": "copias_locales/21_inegi_marco2020.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/inegi_marco2020.jpg",
+      "screenshot_sha256": "f22ebf8875c584e69a8f6d4c8a9eb91c6ef9a66e52789378b59f843910ad2983",
+      "evidence_captured_at_utc": "2026-11-14T00:23:56.063Z",
+      "original_url": "https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "original_consulted_at_utc": "2026-11-15T00:59:48.794Z",
+      "snapshot_url": "http://web.archive.org/web/20261011072844/https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "snapshot_captured_at_utc": "2026-10-11T07:28:44+00:00",
+      "snapshot_consulted_at_utc": "2026-11-15T00:42:50.836Z",
+      "snapshot_status": "older_snapshot_unverified_redirect",
+      "bytes": 5184,
+      "sha256": "f9f5a473eae95b56a4429b17b2d5200735f7f14a62c425ccf9402afeaf758558"
+    },
+    {
+      "sequence": 22,
+      "source_ids": [
+        "B5",
+        "B9d1",
+        "B9d2"
+      ],
+      "path": "copias_locales/22_inegi_denue.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/inegi_denue.jpg",
+      "screenshot_sha256": "7b48a008f196be24c6a175655555db3d74769168b495db72f3089c49342bd2dc",
+      "evidence_captured_at_utc": "2026-11-14T00:23:59.21Z",
+      "original_url": "https://www.inegi.org.mx/app/mapa/denue/",
+      "original_consulted_at_utc": "2026-11-15T01:03:52.890Z",
+      "snapshot_url": "http://web.archive.org/web/20261021172815/https://www.inegi.org.mx/app/mapa/denue/",
+      "snapshot_captured_at_utc": "2026-10-21T17:28:15+00:00",
+      "snapshot_consulted_at_utc": "2026-11-15T00:43:48.040Z",
+      "snapshot_status": "older_snapshot_partial",
+      "bytes": 4546,
+      "sha256": "a155d3e92074e037e91037f0a49bd46ac54c51efe7186969cbb67b210feaa653"
+    },
+    {
+      "sequence": 23,
+      "source_ids": [
+        "AUX_ITER_CDMX_2020",
+        "B1",
+        "B10",
+        "B6"
+      ],
+      "path": "copias_locales/23_inegi_cpv2020.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/inegi_cpv2020.jpg",
+      "screenshot_sha256": "0a5e99773e091db69e502373e07c0278180c4bace3bb0200b8c3e5aeae2980c9",
+      "evidence_captured_at_utc": "2026-11-14T00:23:54.89Z",
+      "original_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
+      "original_consulted_at_utc": "2026-11-14T00:23:54.89Z",
+      "snapshot_url": "http://web.archive.org/web/20261109054125/https://www.inegi.org.mx/programas/ccpv/2020/",
+      "snapshot_captured_at_utc": "2026-11-09T05:41:25+00:00",
+      "snapshot_consulted_at_utc": "2026-11-15T00:44:57.389Z",
+      "snapshot_status": "older_snapshot_loaded",
+      "bytes": 4212,
+      "sha256": "0e2d33ff18ee05e0343ffdb68d8aaba186e699e8081b42721cbd64e871dcd3c0"
+    },
+    {
+      "sequence": 24,
+      "source_ids": [
+        "B4",
+        "B9c"
+      ],
+      "path": "copias_locales/24_inegi_ce2019.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/inegi_ce2019.jpg",
+      "screenshot_sha256": "1bfa207e4307243908a97a9ac2dadcc4135dfa2c54f3bfc16172b60bc2ddb7bd",
+      "evidence_captured_at_utc": "2026-11-14T00:23:57.734Z",
+      "original_url": "https://www.inegi.org.mx/programas/ce/2019/",
+      "original_consulted_at_utc": "2026-11-14T00:23:57.734Z",
+      "snapshot_url": "http://web.archive.org/web/20261105114830/https://www.inegi.org.mx/programas/ce/2019/",
+      "snapshot_captured_at_utc": "2026-11-05T11:48:30+00:00",
+      "snapshot_consulted_at_utc": "2026-11-15T00:45:46.102Z",
+      "snapshot_status": "older_snapshot_loaded",
+      "bytes": 3492,
+      "sha256": "7d7e15213ee1ce975835c4aa62e33516794e71143d7b314fe3bdbbf0edf61013"
+    },
+    {
+      "sequence": 25,
+      "source_ids": [
+        "D2a",
+        "D2b",
+        "D2c",
+        "D2d",
+        "D2e"
+      ],
+      "path": "copias_locales/25_inegi_cngmd2019.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/inegi_cngmd2019.jpg",
+      "screenshot_sha256": "236f7ba26f63ffdcb7918b062d5e3631c766cb6f20648a80e04fd2df7a382b7a",
+      "evidence_captured_at_utc": "2026-11-14T00:24:13.475Z",
+      "original_url": "https://www.inegi.org.mx/programas/cngmd/2019/",
+      "original_consulted_at_utc": "2026-11-14T00:24:13.475Z",
+      "snapshot_url": "http://web.archive.org/web/20261011112855/https://www.inegi.org.mx/programas/cngmd/2019/",
+      "snapshot_captured_at_utc": "2026-10-11T11:28:55+00:00",
+      "snapshot_consulted_at_utc": "2026-11-15T00:46:16.139Z",
+      "snapshot_status": "older_snapshot_loaded",
+      "bytes": 4478,
+      "sha256": "5535788c403c31eb60b01b89453292af1036a47971d6b3addacc120920078979"
+    },
+    {
+      "sequence": 26,
+      "source_ids": [
+        "D3a",
+        "D3b",
+        "D3c",
+        "D3d",
+        "D3e"
+      ],
+      "path": "copias_locales/26_inegi_cngmd2021.html",
+      "copy_kind": "local_visual_copy_from_preserved_screenshot",
+      "screenshot": "capturas/inegi_cngmd2021.jpg",
+      "screenshot_sha256": "dbc518ea5d3cb871567551df0398f967aaf49a02c5a2f4699415c6fcb6b219b7",
+      "evidence_captured_at_utc": "2026-11-14T00:24:14.839Z",
+      "original_url": "https://www.inegi.org.mx/programas/cngmd/2021/",
+      "original_consulted_at_utc": "2026-11-14T00:24:14.839Z",
+      "snapshot_url": "http://web.archive.org/web/20261021190548/https://www.inegi.org.mx/programas/cngmd/2021/",
+      "snapshot_captured_at_utc": "2026-10-21T19:05:48+00:00",
+      "snapshot_consulted_at_utc": "2026-11-15T00:46:26.298Z",
+      "snapshot_status": "older_snapshot_loaded",
+      "bytes": 4555,
+      "sha256": "80a3feacd23a6002784e592a4371e5fdb41002d067c8bc1f9f7da54fc809902b"
+    }
+  ]
+}

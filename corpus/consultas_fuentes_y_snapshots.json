@@ -35,7 +35,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/01_sacmex_consumo.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:21:31.437Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 2,
@@ -61,7 +64,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/02_insar_virginiatech.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:28:09.235Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 3,
@@ -87,7 +93,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/03_huerta_pdf_preview.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:33:01.834Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 4,
@@ -113,7 +122,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/04_mexhires_tmax.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:28:05.154Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 5,
@@ -139,7 +151,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/05_conagua_subterraneas.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:52:38.203Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 6,
@@ -165,7 +180,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/06_conagua_pronacose.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:50:47.63Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 7,
@@ -191,7 +209,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/07_conagua_calidad.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:24:50.086Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 8,
@@ -217,7 +238,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/08_hidromx_zenodo.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:28:37.244Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 9,
@@ -243,7 +267,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/09_sacmex_reportes.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:28:39.131Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 10,
@@ -269,7 +296,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/10_mexhires_tmedia.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:26:38.566Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 11,
@@ -295,7 +325,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/11_mexhires_precipitacion.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:28:04.077Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 12,
@@ -321,7 +354,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/12_mexhires_tmin.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:26:37.434Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 13,
@@ -347,7 +383,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/13_openmeteo.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:20:51.085Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 14,
@@ -373,7 +412,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/14_conagua_sih_portal.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:33:04.309Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 15,
@@ -399,7 +441,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/15_smn_sequia.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:24:53.081Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 16,
@@ -425,7 +470,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/16_shcp_derechos.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:53:29.711Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 17,
@@ -451,7 +499,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/17_conagua_sih.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:24:48.023Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 18,
@@ -477,7 +528,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/18_conapo_marginacion.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:24:20.034Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 19,
@@ -503,7 +557,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/19_conapo_delimitacion.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:24:17.563Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 20,
@@ -529,7 +586,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/20_conapo_proyecciones.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:24:46.361Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 21,
@@ -555,7 +615,10 @@
       "local_preservation_snapshot": "respaldos_inegi/marco_ficha_original.html",
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": "wayback_revision_historica_inegi.json"
+      "historical_inegi_review_record": "wayback_revision_historica_inegi.json",
+      "local_copy_path": "copias_locales/21_inegi_marco2020.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:23:56.063Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 22,
@@ -581,7 +644,10 @@
       "local_preservation_snapshot": "respaldos_inegi/denue_documentacion_archivada.html",
       "alternative_snapshot_url": "https://web.archive.org/web/20261021171100/https://www.inegi.org.mx/temas/directorio/",
       "alternative_snapshot_consulted_at_utc": "2026-11-15T01:11:43.546Z",
-      "historical_inegi_review_record": "wayback_revision_historica_inegi.json"
+      "historical_inegi_review_record": "wayback_revision_historica_inegi.json",
+      "local_copy_path": "copias_locales/22_inegi_denue.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:23:59.21Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 23,
@@ -607,7 +673,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/23_inegi_cpv2020.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:23:54.89Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 24,
@@ -633,7 +702,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/24_inegi_ce2019.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:23:57.734Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 25,
@@ -659,7 +731,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/25_inegi_cngmd2019.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:24:13.475Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     },
     {
       "sequence": 26,
@@ -685,7 +760,10 @@
       "local_preservation_snapshot": null,
       "alternative_snapshot_url": null,
       "alternative_snapshot_consulted_at_utc": null,
-      "historical_inegi_review_record": null
+      "historical_inegi_review_record": null,
+      "local_copy_path": "copias_locales/26_inegi_cngmd2021.html",
+      "local_copy_evidence_captured_at_utc": "2026-11-14T00:24:14.839Z",
+      "local_copy_kind": "local_visual_copy_from_preserved_screenshot"
     }
   ]
 }

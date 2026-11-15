@@ -23,6 +23,37 @@ the catalogue or web-evidence metadata:
 python corpus/scripts/generar_indice.py
 ```
 
+## Offline copies of source pages
+
+Open [the offline source-copy index](copias_locales/index.html) to access the
+original publisher page, its Wayback snapshot and our local visual copy, with
+separate dates for original consultation, Wayback capture/consultation and local
+image capture. Each local page links the exact preserved input files and retains
+publisher attribution and recorded licence terms. No network access is needed to
+view its image or open the preserved data files.
+
+The 26 local pages reuse already preserved screenshots covering all 65 logical
+inputs. These are **visual copies of the captured area**, not complete scrolling
+pages, WARC archives or working clones of interactive applications. The Huerta
+page links its complete local PDF as well as the first-page preview; Marco and
+DENUE also link existing readable text/document backups. Their unresolved external
+map/product-page limitations remain explicit. No new Wayback saves were made.
+
+`copias_locales/registro.json` records the source and archive URLs, dates, copy
+type and SHA-256 of each image/page. The global dated CSV/JSON register also links
+each local copy. Rebuild these pages using only public preserved evidence:
+
+```text
+python corpus/scripts/generar_copias_locales.py
+python corpus/scripts/generar_indice.py
+python corpus/scripts/verificar_copias_locales.py
+```
+
+These copies belong to the Git repository and downloadable corpus. Like the rest
+of `corpus/`, they remain excluded from the existing Pages deployment; this does
+not alter any URL already cited in the paper. Publication in Git requires a
+separately authorised commit/push.
+
 ## Verify without unpacking
 
 Python 3.7 or later is sufficient; no external package, database, network request
