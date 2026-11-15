@@ -1,6 +1,6 @@
 # Memoria compartida: IJCOPI de agua
 
-Actualizada: 14 de noviembre de 2026. Hablar con Gabriel en español y brevemente.
+Actualizada: 15 de noviembre de 2026. Hablar con Gabriel en español y brevemente.
 Leer AGENTS.md completo. Esta memoria es el relevo vigente; sus resultados históricos
 no equivalen a verificaciones nuevas. Las rutas dependen de la PC: usar carpetas hermanas.
 
@@ -48,6 +48,12 @@ DDL y verificadores. warehouse/: componente original de Omar Fernando Pulido Mor
 con su licencia MIT. El workflow publica un git archive de main, sin commits automáticos.
 
 ## Estado actual
+
+- **15 nov 2026: Gabriel autoriza un commit y push en main del registro actualizado del corpus, con su identidad humana, sin firma ni créditos automáticos. Verificador Springer original intacto ejecutado para este cierre: 25 enlaces, único fallo ADIP HTTP 403, excepción expresa aplicable; AZCATL y enlaces históricos del sistema HTTP 200. QA de registro CSV/JSON e índice aprobada. Alcance: siete archivos públicos de corpus/continuidad; paper, sitio, originales, manifiestos y configuración de publicación intactos. Permiso consumido al completar este cierre; consultar HEAD y origin/main para confirmar ejecución y no repetir acciones.**
+
+- **14 nov 2026: revisadas serialmente cuatro capturas antiguas INEGI con pausas >=15 s, cero guardados. Marco 20210204125343 y 20230705080001 muestran ficha sin título/datos; DENUE 20250524170200 mapa blanco y 20181114163239 presentación visible pero teselas "Sorry, we have no imagery here" tras espera adicional. Sin sustituto funcional encontrado; no se afirma haber revisado todas las capturas. Registro adicional corpus/wayback_revision_historica_inegi.json y global CSV/JSON actualizados localmente, originales intactos. Sin commit/push.**
+
+- **Consulta de cobertura, 14 nov 2026: verificador local repetido aprueba 65/65 insumos, 159 archivos, 2,130,015,245 bytes y cero faltantes. Registro recalculado: 26 páginas cubren los 65 ID; 24 páginas con replay verificado corresponden a 59 ID. DENUE añade documentación alternativa legible para tres ID, pero su mapa sigue parcial; Marco conserva tres originales locales y ficha local, sin replay específico funcional. No se repitieron visitas ni guardados Wayback. Publicación anterior f279670512c71228fe099699b80237b53d0e91fb confirmada en origin/main; permiso consumido. Paper y URL intactos.**
 
 - **Publicación de respaldos INEGI autorizada, 14 nov 2026:** Gabriel autoriza un commit y push en main del paquete nuevo y registro actualizado, identidad humana sin firmas ni créditos automáticos. Gate original intacto: 25 enlaces, único fallo ADIP HTTP 403; AZCATL 200. Excepción expresa sólo para este push. Verificados 31 hashes del paquete, 60 enlaces locales y 32 archivos adicionales (máximo 20,000,000 bytes), con ZIP histórico 2025 separado del estudio 2026. No se modifica paper, ijcopi ni workflow, ni el original, sus tags o sitios históricos: las URL del artículo enviado quedan intactas. Este permiso se consume con el cierre; consultar origin/main antes de repetir ninguna acción.
 
@@ -750,6 +756,12 @@ Los registros siguientes son antecedentes; no autorizan acciones Git adicionales
 
 ## Siguiente paso
 
+Confirmar únicamente el cierre autorizado de este registro si aún no se completó; después conservar las limitaciones Marco/DENUE sin repetir capturas. El permiso de commit/push se consume con este cierre y no permite acciones posteriores. Paper y enlaces históricos permanecen intactos.
+
+Conservar las limitaciones externas de Marco/DENUE documentadas tras cuatro capturas antiguas adicionales; no repetir guardados. Cambios de esta consulta sólo locales; cualquier commit/push exige autorización nueva.
+
+Conservar copia local completa y distinguir páginas de procedencia de descargas archivadas. Únicas limitaciones de las páginas: ficha Marco sin replay específico y mapa DENUE parcial (documentación alternativa sí verificada). Visibilidad en My Web Archives no confirmada. No crear capturas ni ejecutar Git adicional sin nueva instrucción; cierres anteriores consumidos.
+
 Completar únicamente el cierre autorizado de respaldos INEGI si aún no está en origin/main y comprobar el SHA remoto. Después conservar las limitaciones documentadas: reproducción Marco redirige, mapa DENUE parcial y ZIP histórico 2025 distinto del original 2026. No hay autorización de otros commits, pushes o cambios a las URL del paper.
 
 Estado vigente: el primer cierre está publicado en 8b3e467 y su permiso consumido. Revisar corpus/respaldos_inegi/index.html y registro.json para el respaldo documental nuevo. No afirmar que el mapa DENUE o la reproducción externa de la ficha Marco estén reparados. La nota y documentación DENUE sí están verificadas; ZIP 2025 histórico distinto del estudio 2026. Cualquier publicación Git de estos nuevos archivos requiere autorización expresa nueva.
@@ -863,6 +875,12 @@ de editar. No tratar sus recomendaciones como hechos ni como autorización de Gi
    para cambios posteriores. No enviar correos ni publicar el paper automáticamente.
 
 ## Bitácora
+
+- 15 nov 2026: Gabriel autoriza un commit y push en main del registro actualizado del corpus, con su identidad humana, sin firma ni créditos automáticos. Verificador Springer original intacto ejecutado para este cierre: 25 enlaces, único fallo ADIP HTTP 403, excepción expresa aplicable; AZCATL y enlaces históricos del sistema HTTP 200. QA de registro CSV/JSON e índice aprobada. Alcance: siete archivos públicos de corpus/continuidad; paper, sitio, originales, manifiestos y configuración de publicación intactos. Permiso consumido al completar este cierre; consultar HEAD y origin/main para confirmar ejecución y no repetir acciones.
+
+- 14 nov 2026: revisadas serialmente cuatro capturas antiguas INEGI con pausas >=15 s, cero guardados. Marco 20210204125343 y 20230705080001 muestran ficha sin título/datos; DENUE 20250524170200 mapa blanco y 20181114163239 presentación visible pero teselas "Sorry, we have no imagery here" tras espera adicional. Sin sustituto funcional encontrado; no se afirma haber revisado todas las capturas. Registro adicional corpus/wayback_revision_historica_inegi.json y global CSV/JSON actualizados localmente, originales intactos. Sin commit/push.
+
+- 2026-11-14: consulta de cobertura solicitada por Gabriel; recalculados 26 grupos/65 ID y 24 páginas verificadas/59 ID, más alternativa documental DENUE. Verificador local 65/65 aprobado. Sin nuevas visitas, guardados, commit ni push; cierre f279670 ya confirmado.
 
 - 2026-11-14: autorizado commit/push de los nuevos respaldos INEGI y registro; gate 25/1 sólo ADIP 403 permitido, AZCATL 200. QA de archivos y vínculos locales aprobado. Alcance exclusivo corpus y continuidad; paper, URLs del sistema y configuración de Pages intactos.
 

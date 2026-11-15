@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-11-15T01:53:42.783664+00:00",
+  "operation": "Sequential read-only Edge calendar and replay review; pauses of at least 15 seconds; no Save Page Now requests",
+  "timestamp_note": "Exact observation timestamps retained where emitted during browser review. Marco consultation day was observed; its exact time was not recorded and is not invented.",
+  "summary": {
+    "reviewed_snapshots": 4,
+    "functional_product_fiches_found": 0,
+    "functional_maps_found": 0,
+    "new_save_requests": 0
+  },
+  "scope_note": "Four selected older captures were reviewed, not every historical capture. No download bytes or interactive queries were verified in this review. Existing local scientific inputs and previous successful documentary backups remain unchanged.",
+  "results": [
+    {
+      "source_ids": [
+        "B3",
+        "B8",
+        "B11"
+      ],
+      "original_url": "https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "requested_url": "https://web.archive.org/web/20210204125343/https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "final_url": "https://web.archive.org/web/20210204125343/https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "status": "partial_empty_product_fiche",
+      "consulted_at_utc": null,
+      "note": "Product-page shell loads, but product title, description and download formats remain empty after waiting.",
+      "consulted_on_mexico": "2026-11-14",
+      "snapshot_captured_at_utc": "2021-02-04T12:53:43+00:00",
+      "minimum_post_navigation_wait_seconds": 15,
+      "consulted_at_mexico": null
+    },
+    {
+      "source_ids": [
+        "B3",
+        "B8",
+        "B11"
+      ],
+      "original_url": "https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "requested_url": "https://web.archive.org/web/20230705/https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "final_url": "https://web.archive.org/web/20230705080001/https://inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "status": "partial_empty_product_fiche",
+      "consulted_at_utc": null,
+      "note": "Selected 5 July 2023 from the calendar. Replay switches to host without www; product title, description and download formats remain empty after waiting.",
+      "consulted_on_mexico": "2026-11-14",
+      "snapshot_captured_at_utc": "2023-07-05T08:00:01+00:00",
+      "minimum_post_navigation_wait_seconds": 15,
+      "consulted_at_mexico": null
+    },
+    {
+      "source_ids": [
+        "B5",
+        "B9d1",
+        "B9d2"
+      ],
+      "original_url": "https://www.inegi.org.mx/app/mapa/denue/",
+      "requested_url": "https://web.archive.org/web/20250524/https://www.inegi.org.mx/app/mapa/denue/",
+      "final_url": "https://web.archive.org/web/20250524170200/https://www.inegi.org.mx/app/mapa/denue/",
+      "status": "partial_blank_map",
+      "consulted_at_utc": "2026-11-15T01:50:44.687Z",
+      "note": "DENUE title and search controls load; map area remains blank after waiting.",
+      "consulted_on_mexico": "2026-11-14",
+      "snapshot_captured_at_utc": "2025-05-24T17:02:00+00:00",
+      "minimum_post_navigation_wait_seconds": 15,
+      "consulted_at_mexico": "2026-11-14T19:50:44.687000-06:00"
+    },
+    {
+      "source_ids": [
+        "B5",
+        "B9d1",
+        "B9d2"
+      ],
+      "original_url": "https://www.inegi.org.mx/app/mapa/denue/",
+      "requested_url": "https://web.archive.org/web/20181114163239/https://www.inegi.org.mx/app/mapa/denue/",
+      "final_url": "https://web.archive.org/web/20181114163239/https://www.inegi.org.mx/app/mapa/denue/",
+      "status": "presentation_loaded_map_imagery_unavailable",
+      "consulted_at_utc": "2026-11-15T01:52:39.493Z",
+      "note": "After an additional 30-second wait, the historical presentation becomes readable, but map tiles show \"Sorry, we have no imagery here\" and a loading message persists. Historical edition is not the pinned 2026 study input.",
+      "consulted_on_mexico": "2026-11-14",
+      "snapshot_captured_at_utc": "2018-11-14T16:32:39+00:00",
+      "minimum_post_navigation_wait_seconds": 15,
+      "consulted_at_mexico": "2026-11-14T19:52:39.493000-06:00"
+    }
+  ]
+}

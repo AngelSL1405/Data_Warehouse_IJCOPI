@@ -179,3 +179,11 @@ CC0 terms. Publisher and academic author credits must accompany redistribution.
 This corpus is a source-preservation package, not part of the interactive Pages
 application. Publishing the website should exclude it from the Pages deployment
 bundle; source-repository access and website deployment are separate concerns.
+
+The [additional historical INEGI review](wayback_revision_historica_inegi.json)
+records four older captures checked sequentially on 14 November 2026, with pauses
+and no new saves: Marco (4 February 2021 and 5 July 2023) shows empty product
+fields; DENUE (24 May 2025) shows a blank map, and DENUE (14 November 2018)
+loads its historical presentation but reports unavailable map imagery. No functional
+replacement of the product fiche or interactive map was found in these four checks.
+All local scientific inputs and earlier successful documentary backups are retained.
