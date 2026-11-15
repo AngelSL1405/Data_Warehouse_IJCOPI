@@ -172,6 +172,7 @@ def build(root):
              "Download links identify the documented file endpoint; an **upstream ZIP** is the origin of the retained ITER extract, not a direct download of that extract. The exact original Open-Meteo request URL is not recorded. Missing or blocked evidence remains explicit.", "",
              "Earlier Availability checks are retained below. Subsequent serial Save Page Now outcomes are recorded in the [browser-attempt history](wayback_intentos_browser.json) and [new-capture report](wayback_capturas_nuevas.json). A service-confirmed capture, account visibility and a verified replay are separate states; delayed registration does not establish immediate accessibility.", "",
              "Original-page consultation dates, snapshot capture dates and snapshot consultation dates are recorded separately in the [dated CSV register](consultas_fuentes_y_snapshots.csv) and [JSON register](consultas_fuentes_y_snapshots.json).", "",
+             "The [read-only review of eight older snapshots](wayback_verificacion_anteriores.json) distinguishes six visible source presentations, a partial DENUE page and a Marco Geoestadistico fiche that redirects to the generic catalogue. Linked downloads and interactive data services were not verified.", "",
              "| ID | Input file and size | Preserved bytes | Download / origin | Publisher-page evidence | Wayback |",
              "| --- | --- | --- | --- | --- | --- |"]
     split_sources = []

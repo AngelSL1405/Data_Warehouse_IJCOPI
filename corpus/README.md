@@ -124,6 +124,15 @@ America/Mexico_City. Missing consultation dates remain empty; Availability API
 checks do not count as opening a snapshot. Earlier observed source-page dates
 are retained rather than represented as fresh visits.
 
+The [read-only review of the eight older snapshots](wayback_verificacion_anteriores.json)
+records six source pages with visible presentations: SACMEX consumption and
+reports, CPV 2020, CE 2019, and CNGMD 2019/2021. The DENUE snapshot displays
+controls but its map remains blank. The Marco Geoestadistico fiche redirects to
+the generic publications catalogue, so the specific fiche is not confirmed.
+The dated register retains the requested link and records the final served URL
+separately. No pages were saved again for this review; linked data downloads and
+interactive result tabs were not verified.
+
 The subsequent retry of the eight missing pages again returned HTTP 503 for all
 eight; its dated outcomes are appended to the browser-attempt history. The
 [Huerta PDF verification](verificacion_huerta.json) confirms that the existing

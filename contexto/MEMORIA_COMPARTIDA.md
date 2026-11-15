@@ -49,6 +49,10 @@ con su licencia MIT. El workflow publica un git archive de main, sin commits aut
 
 ## Estado actual
 
+- **Nuevo cierre autorizado, 14 nov 2026:** Gabriel autorizó un commit y push en main de la última revisión de ocho snapshots anteriores, identidad humana sin firma ni créditos automáticos. Gate original intacto: 25 enlaces/1 fallo exclusivamente ADIP 403, excepción expresa aplicable sólo a este push; AZCATL 200. Después del cierre se investigarán Marco Geoestadístico y DENUE y se actualizará el corpus local con archivos, enlaces y fechas reales. Ese trabajo posterior no autoriza otro commit/push. Consultar origin/main para comprobar consumo del permiso y no repetirlo.
+
+- **Snapshots anteriores de las ocho fuentes, 14 nov 2026:** lectura serial en Edge con pausas de 15 segundos y cero Save Page Now. Seis páginas de procedencia cargan: consumo y reportes SACMEX, CPV 2020, CE 2019, CNGMD 2019 y 2021. DENUE carga controles pero no mapa (parcial). La ficha UPC del Marco Geoestadístico redirige de 11 oct a un catálogo genérico de 12 oct; no se confirma esa ficha. Informe corpus/wayback_verificacion_anteriores.json y registro CSV/JSON actualizados con fecha de consulta y URL final, sin verificar descargas ni pestañas de resultados. Estado Git anterior publicado: 5259ff7 en main; su permiso está consumido. Esta revisión queda local, sin nuevo commit ni push.
+
 - **Cierre Git autorizado del registro, 14 nov 2026:** Gabriel autorizó un commit y push en main del registro del corpus y verificaciones, con identidad humana y sin firma ni créditos automáticos. Gate original intacto: 25 enlaces, único fallo ADIP 403; AZCATL 200. Se aplica la excepción expresa sólo a este push. QA: cuatro pruebas del índice pasan; 26 páginas/65 ID con fechas reales, 17 replays exactos y PDF Huerta de febrero íntegro. Sólo se incluyen metadatos públicos, índice/generador y esta continuidad; tmp, pruebas de navegador y prompt de obras quedan fuera. Este permiso se consume al ejecutar este cierre; no autoriza más commits ni acciones en obras públicas. Para saber si ya cerró, consultar Git y origin/main; no repetir acciones.
 
 - **Cierre de fuentes y PDF, 14 nov 2026:** ocho páginas pendientes reintentadas serialmente con pausas; todas devolvieron HTTP 503, cero nuevas capturas. Después se leyó el PDF archivado de Huerta de 21 febrero 2026: HTTP 200, 38 páginas, 5,132,456 bytes y SHA-256 exacto al pin del corpus y al original del editor consultado ahora. El visor en blanco NO implicaba PDF ausente. Verificación en corpus/verificacion_huerta.json. El enlace de noviembre sigue redirigiendo a febrero: no afirmar fecha nueva. Registro corpus/consultas_fuentes_y_snapshots.csv y .json: 26 páginas/65 ID, originales con fechas reales previas o lectura directa, fechas de captura y consulta de snapshots separadas, UTC y America/Mexico_City; sin inventar consultas de snapshots antiguos no abiertos. 17 replays exactos de noviembre y 1 PDF completo de febrero. Sin nuevo guardado del artículo, commit ni push.
@@ -742,6 +746,10 @@ Los registros siguientes son antecedentes; no autorizan acciones Git adicionales
 
 ## Siguiente paso
 
+Ejecutar sólo el cierre Git autorizado de esta revisión si aún no se completó; después investigar respaldos específicos de Marco Geoestadístico y DENUE, conservar originales/pines, registrar redirecciones y verificar los archivos. Los cambios posteriores a este push quedarán locales hasta nueva autorización Git.
+
+Pendientes actuales: ficha específica del Marco Geoestadístico no confirmada en el snapshot que redirige al catálogo; mapa interactivo DENUE incompleto. Seis de las ocho páginas sí muestran su presentación histórica. No repetir guardados. La lectura no demuestra identidad de descargas ni resultados interactivos. Los registros locales nuevos requieren autorización nueva antes de cualquier commit/push.
+
 Cierre vigente: publicar únicamente el commit autorizado del registro si aún no está en origin/main, con el gate 25/1 sólo ADIP autorizado; comprobar el SHA remoto. No repetir el permiso si ya se ejecutó. Las ocho fuentes con 503 y la visibilidad en cuenta siguen pendientes; Huerta está confirmado íntegro en febrero. El prompt de obras públicas se entrega aparte y no autoriza Git en ese proyecto.
 
 Pendiente de esta actualización: ocho guardados siguen fallando con 503. El PDF Huerta de febrero está confirmado completo e idéntico al corpus; no volver a tratarlo como ausente. Conservar las fechas y enlaces del registro de consultas. Cuenta continúa sin confirmación nueva. Cualquier otro guardado o acción Git necesita la instrucción correspondiente de Gabriel.
@@ -847,6 +855,10 @@ de editar. No tratar sus recomendaciones como hechos ni como autorización de Gi
    para cambios posteriores. No enviar correos ni publicar el paper automáticamente.
 
 ## Bitácora
+
+- 2026-11-14: autorizado commit/push de los ocho snapshots anteriores; gate Springer original 25/1, sólo ADIP 403 expresamente permitido y AZCATL 200. Luego se atenderán las dos limitaciones, sin transferir la autorización a otro push.
+
+- 2026-11-14: por petición de Gabriel, revisados uno a uno los ocho snapshots antiguos sin guardar páginas: seis presentaciones cargan, DENUE parcial y Marco Geoestadístico redirige a catálogo. Actualizados informes y fechas/URL finales en corpus, continuidad local y sin nuevas acciones Git.
 
 - 2026-11-14: cierre del registro autorizado con identidad Git humana, sin firmas/créditos automáticos. Verificador original: 25/1, únicamente ADIP 403 permitido expresamente; AZCATL 200. QA del índice y metadatos aprobada. Prompt preparado aparte para obras públicas a partir de sus registros existentes, sin editar ese repositorio ni transferir la autorización Git.
 
