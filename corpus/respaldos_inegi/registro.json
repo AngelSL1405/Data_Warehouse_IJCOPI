@@ -1,0 +1,683 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "These are supplementary preservation files, separate from the 65 pinned logical study inputs.",
+    "A readable source-presentation backup does not restore the DENUE map or certify linked services.",
+    "The Marco live product metadata and pinned original files are preserved locally; both tested Wayback fiche captures still redirect.",
+    "The archived CDMX ZIP is complete and CRC-verified but is DENUE 05_2025; it MUST NOT replace or count as the pinned DENUE 05_2026 study file."
+  ],
+  "original_consultations": {
+    "marco": {
+      "url": "https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "consulted_at_utc": "2026-11-15T00:59:48.794Z",
+      "title": "Marco Geoestadístico. Censo de Población y Vivienda 2020",
+      "status": "product_metadata_and_state_download_list_visible"
+    },
+    "denue": {
+      "url": "https://www.inegi.org.mx/app/mapa/denue/",
+      "consulted_at_utc": "2026-11-15T01:03:52.890Z",
+      "status": "live_interface_visible",
+      "official_note_url": "https://www.inegi.org.mx/app/mapa/denue/nota.pdf"
+    },
+    "older_marco": {
+      "requested_url": "http://web.archive.org/web/20210624005655/https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "final_url": "https://web.archive.org/web/20210722040005/https://www.inegi.org.mx/app/publicaciones/",
+      "consulted_at_utc": "2026-11-15T01:03:22.891Z",
+      "status": "redirects_to_generic_catalogue"
+    }
+  },
+  "denue_alternative_source_page": {
+    "original_url": "https://www.inegi.org.mx/temas/directorio/",
+    "snapshot_url": "https://web.archive.org/web/20261021171100/https://www.inegi.org.mx/temas/directorio/",
+    "consulted_at_utc": "2026-11-15T01:11:43.546Z",
+    "status": "source_title_and_presentation_visible",
+    "original_consulted_at_utc": "2026-11-15T01:11:50.533Z"
+  },
+  "denue_note_publisher_consultation": {
+    "id": "denue_nota_original",
+    "requested_url": "https://www.inegi.org.mx/app/mapa/denue/nota.pdf",
+    "consulted_at_utc": "2026-11-15T01:05:40.801741+00:00",
+    "final_url": "https://www.inegi.org.mx/app/mapa/denue/nota.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "size": 193164,
+    "sha256": "2537e1dac93cf24b34d8df77ec746f6011d804b6fb70a66c7721c66bbe92d448",
+    "status": "pdf_readable",
+    "pages": 4
+  },
+  "denue_note_archived_verification": {
+    "id": "denue_nota_verificada",
+    "snapshot_url": "https://web.archive.org/web/20260803180006/https://www.inegi.org.mx/app/mapa/denue/nota.pdf",
+    "consulted_at_utc": "2026-11-15T01:07:15.656940+00:00",
+    "final_url": "https://web.archive.org/web/20260803180006if_/https://www.inegi.org.mx/app/mapa/denue/nota.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "size": 193164,
+    "sha256": "2537e1dac93cf24b34d8df77ec746f6011d804b6fb70a66c7721c66bbe92d448",
+    "status": "pdf_verified",
+    "pages": 4,
+    "publisher_sha256_match": true
+  },
+  "denue_archived_zip_distinct_version": {
+    "id": "denue_cdmx_verificado",
+    "snapshot_url": "https://web.archive.org/web/20260209230115if_/https://www.inegi.org.mx/contenidos/masiva/denue/denue_09_csv.zip",
+    "consulted_at_utc": "2026-11-15T01:07:32.822631+00:00",
+    "final_url": "https://web.archive.org/web/20260209230115if_/https://www.inegi.org.mx/contenidos/masiva/denue/denue_09_csv.zip",
+    "http_status": 200,
+    "content_type": "application/x-zip-compressed",
+    "size": 44900214,
+    "sha256": "5b31c1da873ef1f8c8a1f2a6b07ca9f26ccb2c0438ebf6161c1fa94078a66080",
+    "status": "zip_crc_verified",
+    "pinned_sha256_match": false
+  },
+  "archived_zip_parts": [
+    {
+      "path": "respaldos_inegi/version_historica_distinta/denue_cdmx_2025_wayback_20260209.zip.001",
+      "bytes": 20000000,
+      "sha256": "632bedbe53b4c747df3fc66c7599e36288b355802a2d6e341464cec92eafbaa6",
+      "role": "Older DENUE 05_2025 archive, NOT the pinned 05_2026 study input"
+    },
+    {
+      "path": "respaldos_inegi/version_historica_distinta/denue_cdmx_2025_wayback_20260209.zip.002",
+      "bytes": 20000000,
+      "sha256": "c6b1daf9e08b727fdbc7126964a367182406a32e74f00a4e0f61e427b152e9d8",
+      "role": "Older DENUE 05_2025 archive, NOT the pinned 05_2026 study input"
+    },
+    {
+      "path": "respaldos_inegi/version_historica_distinta/denue_cdmx_2025_wayback_20260209.zip.003",
+      "bytes": 4900214,
+      "sha256": "4c934c6c9f698c7d646ad2f1ce8a77cc60cc1aa098885f60eab2980a558669e9",
+      "role": "Older DENUE 05_2025 archive, NOT the pinned 05_2026 study input"
+    }
+  ],
+  "pinned_original_files_verified": [
+    {
+      "id": "B3",
+      "original_url": "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/marcogeo/889463807469/09_ciudaddemexico.zip",
+      "size": 83207305,
+      "sha256": "685b912f5458138a70726cff41aff828473e14264c43289d3b21f86a9df00320",
+      "verified_at_utc": "2026-11-15T01:05:40.004088+00:00",
+      "files": [
+        {
+          "path": "originales/B3/09_ciudaddemexico.zip.001",
+          "bytes": 20000000,
+          "sha256": "ee04df9589e430ab9a13d6e5fa14e49692ecd090ee47b83884926502327b6db3"
+        },
+        {
+          "path": "originales/B3/09_ciudaddemexico.zip.002",
+          "bytes": 20000000,
+          "sha256": "349b5169ee3d453e98008e243906f96112fa7d330d29c9cc63543db3d51a7d58"
+        },
+        {
+          "path": "originales/B3/09_ciudaddemexico.zip.003",
+          "bytes": 20000000,
+          "sha256": "5df79dc9843b76504c7740e144d67bf810ac78e5319ae12944c3eda1c060b365"
+        },
+        {
+          "path": "originales/B3/09_ciudaddemexico.zip.004",
+          "bytes": 20000000,
+          "sha256": "8e4b1628aed78ce029627e9c5514f38df640a94e756128766f3c07b3349d3f25"
+        },
+        {
+          "path": "originales/B3/09_ciudaddemexico.zip.005",
+          "bytes": 3207305,
+          "sha256": "c648523848e7495eff38e4c59682ee99fd374822874d9bd0f932bf26c67f18c4"
+        }
+      ],
+      "pinned_bytes_verified": true
+    },
+    {
+      "id": "B5",
+      "original_url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_09_csv.zip",
+      "size": 45439249,
+      "sha256": "ae608f30118f6313e9d537ea22918b2c9e9a3d3f19c2ddf5907f55dbb1642b19",
+      "verified_at_utc": "2026-11-15T01:05:40.084894+00:00",
+      "files": [
+        {
+          "path": "originales/B5/denue_09_csv.zip.001",
+          "bytes": 20000000,
+          "sha256": "30cc4acaa7715c06a4955867b392ed16d576ef7c27d4eacd37ef85337e53e651"
+        },
+        {
+          "path": "originales/B5/denue_09_csv.zip.002",
+          "bytes": 20000000,
+          "sha256": "9dc51087699118c35b2c81b9d4924c9d702572c12d79c8e303b459f2619fb282"
+        },
+        {
+          "path": "originales/B5/denue_09_csv.zip.003",
+          "bytes": 5439249,
+          "sha256": "e648f0f409851c534629efbd271569391915c9f2ceb5ab509a7db2da93d68761"
+        }
+      ],
+      "pinned_bytes_verified": true
+    },
+    {
+      "id": "B8",
+      "original_url": "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/marcogeo/889463807469/15_mexico.zip",
+      "size": 226724467,
+      "sha256": "dc72ee585dc60f88dc3d7daa431b360cadbee70e0f13fe9ca0c13251795d96cf",
+      "verified_at_utc": "2026-11-15T01:05:40.452509+00:00",
+      "files": [
+        {
+          "path": "originales/B8/15_mexico.zip.001",
+          "bytes": 20000000,
+          "sha256": "2ff0ef68044e7a2cc044bb70a79394526c95c425b9242963f1222a1ff2659b11"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.002",
+          "bytes": 20000000,
+          "sha256": "2dc59c25f53d4bd8d9bdd7bd584b842cf307d2d556408faf7844519c950daf68"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.003",
+          "bytes": 20000000,
+          "sha256": "718a74a09253066ee7a9ef4fb0e6527d71728a9540607dbc9b86f71b7c54fdec"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.004",
+          "bytes": 20000000,
+          "sha256": "fa6f1a2e75f43e8badcec5657aef9c84ec5e8751815ab33f9465ccfd0027bd2d"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.005",
+          "bytes": 20000000,
+          "sha256": "9a99bd695f0e88991749f3f27fe2231b3ae1f9448db8d1b7ac512a1448a2d908"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.006",
+          "bytes": 20000000,
+          "sha256": "ba7e0191f6273142495741585b8e2f6651bd08858157c987db9e43f2a72e06ab"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.007",
+          "bytes": 20000000,
+          "sha256": "280a102950ba53d8fd5bc2eb5adb958f10b63bf4672acf605adc3900823164a3"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.008",
+          "bytes": 20000000,
+          "sha256": "f64919a14da85643b76d6da228d31438792d12f6d291d7125be5903766094c44"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.009",
+          "bytes": 20000000,
+          "sha256": "5820268b3bcd5ba02c72d249a54ee84ef38b3303c039a7d491617cabcb466f1b"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.010",
+          "bytes": 20000000,
+          "sha256": "0d1f7fcedeaa2de5ec146e47ee33b43a813f6d9fac7b3d5e1b4b8438aeaa1af2"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.011",
+          "bytes": 20000000,
+          "sha256": "f1af8915c26408828eac422c0cfd09078e77ed30f5431a53ca1cba42ece6767d"
+        },
+        {
+          "path": "originales/B8/15_mexico.zip.012",
+          "bytes": 6724467,
+          "sha256": "4b5d5b8f17d65fa4db4a8403d17b041bc13214ca35d15702ad00d6b2d1090813"
+        }
+      ],
+      "pinned_bytes_verified": true
+    },
+    {
+      "id": "B9d1",
+      "original_url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_15_1_csv.zip",
+      "size": 50572588,
+      "sha256": "23021fc24a2046e1aa3ad8c21137ca57988ded26b6f293ec0c929f59dd2cb1ae",
+      "verified_at_utc": "2026-11-15T01:05:40.545542+00:00",
+      "files": [
+        {
+          "path": "originales/B9d1/denue_15_1_csv.zip.001",
+          "bytes": 20000000,
+          "sha256": "1382eefe332e170cc407a4176662668a6e4f6377276c9acf54378fb741e0bead"
+        },
+        {
+          "path": "originales/B9d1/denue_15_1_csv.zip.002",
+          "bytes": 20000000,
+          "sha256": "6b51fe7872c47ea1108ef7b0bcb57292f5b47524863fa14fae88120729ae327c"
+        },
+        {
+          "path": "originales/B9d1/denue_15_1_csv.zip.003",
+          "bytes": 10572588,
+          "sha256": "9b471611128ca0840fbdf13cd75b659e89dda235817feb62c5140e953593178d"
+        }
+      ],
+      "pinned_bytes_verified": true
+    },
+    {
+      "id": "B9d2",
+      "original_url": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_15_2_csv.zip",
+      "size": 30236017,
+      "sha256": "ad53e5fb65f15b491e140a80e79b207b95eb0320e4a69822d5a3cefb7652bc20",
+      "verified_at_utc": "2026-11-15T01:05:40.603022+00:00",
+      "files": [
+        {
+          "path": "originales/B9d2/denue_15_2_csv.zip.001",
+          "bytes": 20000000,
+          "sha256": "af3858d52ebcca2f071bfedf594dd9f69d5d45251cf0211097c73e4db34667d9"
+        },
+        {
+          "path": "originales/B9d2/denue_15_2_csv.zip.002",
+          "bytes": 10236017,
+          "sha256": "a4572c74f998221d80340115db6562dda279c3367a73209f529eb80d65e578b5"
+        }
+      ],
+      "pinned_bytes_verified": true
+    },
+    {
+      "id": "B11",
+      "original_url": "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/marcogeo/889463807469/13_hidalgo.zip",
+      "size": 109969226,
+      "sha256": "682645be3b638a3e8036a51a440387b661792058b7edcc6c7daec92c0a4acea1",
+      "verified_at_utc": "2026-11-15T01:05:40.784723+00:00",
+      "files": [
+        {
+          "path": "originales/B11/13_hidalgo.zip.001",
+          "bytes": 20000000,
+          "sha256": "5febaf2cf4eafda30c1fce72392dedf866ba4a0869df5f8ed3aa63493eaa6af8"
+        },
+        {
+          "path": "originales/B11/13_hidalgo.zip.002",
+          "bytes": 20000000,
+          "sha256": "e17b716483524fa77c915679282534ca8b9b9f55697cf70651826051476ab61c"
+        },
+        {
+          "path": "originales/B11/13_hidalgo.zip.003",
+          "bytes": 20000000,
+          "sha256": "27f16ccd18a25b7cef42a73a00e9bf792602bb856f797209f4c7d3b3ca109ac2"
+        },
+        {
+          "path": "originales/B11/13_hidalgo.zip.004",
+          "bytes": 20000000,
+          "sha256": "f8fa6c8db1e1ff7f8b02a8a20e111ac067f2857d8d61cee7260fa911ae3ee82c"
+        },
+        {
+          "path": "originales/B11/13_hidalgo.zip.005",
+          "bytes": 20000000,
+          "sha256": "ee160ed95dc1a3bac5719b5ec01e7cbd0e3299ebaa98a7f25083e4803be6d5b4"
+        },
+        {
+          "path": "originales/B11/13_hidalgo.zip.006",
+          "bytes": 9969226,
+          "sha256": "9b333b7e93cea1ea791d43d87a534626cbd3da8469534ceea08b8fd88de28abb"
+        }
+      ],
+      "pinned_bytes_verified": true
+    }
+  ],
+  "extracted_metadata": [
+    {
+      "path": "respaldos_inegi/metadatos/B3/contenido.txt",
+      "bytes": 10596,
+      "sha256": "37a3b01a14d3e90d6315a5b2087747e510ca1a947dc6b588870e3f44c2a4bcf7",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "catalogos/contenido.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B3/léeme.txt",
+      "bytes": 7144,
+      "sha256": "f1558f97e4dd00e8d06757987999d8c7480f18dc90850b01a2a53161a3404c48",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "catalogos/léeme.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B3/generico_mg_cpyv_2020.txt",
+      "bytes": 2046,
+      "sha256": "ab0f1b3b6688a08f3dfc478347bf8805f3f94cf0de40ca543c7867392168a5df",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "metadatos/generico_mg_cpyv_2020.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B3/mg_cpyv2020_09.txt",
+      "bytes": 53566,
+      "sha256": "df90ecf1d1966cd8832f35ccb51442400696a2e967b2fafa9d7d949ba7780891",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "metadatos/mg_cpyv2020_09.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B3/mg_cpyv2020_09.xml",
+      "bytes": 53380,
+      "sha256": "803379bd4de51b3ad8381633c6e29d578d7e3eaf3db7657a99b07b4566f161b1",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "metadatos/mg_cpyv2020_09.xml"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B5/metadatos_denue.txt",
+      "bytes": 1210,
+      "sha256": "bf05c821f1562fdbebb8ae1d38e091bb8e5b72d12fb671117fb256b819cc7894",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B5",
+      "zip_member": "metadatos/metadatos_denue.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/contenido.txt",
+      "bytes": 10596,
+      "sha256": "37a3b01a14d3e90d6315a5b2087747e510ca1a947dc6b588870e3f44c2a4bcf7",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "catalogos/contenido.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/léeme.txt",
+      "bytes": 7144,
+      "sha256": "f1558f97e4dd00e8d06757987999d8c7480f18dc90850b01a2a53161a3404c48",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "catalogos/léeme.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/generico_mg_cpyv_2020.txt",
+      "bytes": 2046,
+      "sha256": "ab0f1b3b6688a08f3dfc478347bf8805f3f94cf0de40ca543c7867392168a5df",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "metadatos/generico_mg_cpyv_2020.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/mg_cpyv2020_15.txt",
+      "bytes": 53842,
+      "sha256": "ba2ff69f761bd5429e78dc5fdf17fe5c75ac0019948a93adbdd4eceffd1e91d6",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "metadatos/mg_cpyv2020_15.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/mg_cpyv2020_15.xml",
+      "bytes": 53640,
+      "sha256": "bff9f3497661186dedec901d8e3a07524876c9ecaf19175114ebb741e58c9906",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "metadatos/mg_cpyv2020_15.xml"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B9d1/metadatos_denue.txt",
+      "bytes": 1210,
+      "sha256": "bf05c821f1562fdbebb8ae1d38e091bb8e5b72d12fb671117fb256b819cc7894",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B9d1",
+      "zip_member": "metadatos/metadatos_denue.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B9d2/metadatos_denue.txt",
+      "bytes": 1210,
+      "sha256": "bf05c821f1562fdbebb8ae1d38e091bb8e5b72d12fb671117fb256b819cc7894",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B9d2",
+      "zip_member": "metadatos/metadatos_denue.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/contenido.txt",
+      "bytes": 10596,
+      "sha256": "37a3b01a14d3e90d6315a5b2087747e510ca1a947dc6b588870e3f44c2a4bcf7",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "catalogos/contenido.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/léeme.txt",
+      "bytes": 7144,
+      "sha256": "f1558f97e4dd00e8d06757987999d8c7480f18dc90850b01a2a53161a3404c48",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "catalogos/léeme.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/generico_mg_cpyv_2020.txt",
+      "bytes": 2046,
+      "sha256": "ab0f1b3b6688a08f3dfc478347bf8805f3f94cf0de40ca543c7867392168a5df",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "metadatos/generico_mg_cpyv_2020.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/mg_cpyv2020_13.txt",
+      "bytes": 53623,
+      "sha256": "f065cca7f20521092c487ebc150dbd13d7197312c7262e9da6842d22191a129b",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "metadatos/mg_cpyv2020_13.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/mg_cpyv2020_13.xml",
+      "bytes": 53421,
+      "sha256": "8e31adcf581df86d39c3e94ccef9a080af8041688d94d7425519e92bc5c7b7da",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "metadatos/mg_cpyv2020_13.xml"
+    }
+  ],
+  "additional_files": [
+    {
+      "path": "respaldos_inegi/metadatos/B3/contenido.txt",
+      "bytes": 10596,
+      "sha256": "37a3b01a14d3e90d6315a5b2087747e510ca1a947dc6b588870e3f44c2a4bcf7",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "catalogos/contenido.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B3/léeme.txt",
+      "bytes": 7144,
+      "sha256": "f1558f97e4dd00e8d06757987999d8c7480f18dc90850b01a2a53161a3404c48",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "catalogos/léeme.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B3/generico_mg_cpyv_2020.txt",
+      "bytes": 2046,
+      "sha256": "ab0f1b3b6688a08f3dfc478347bf8805f3f94cf0de40ca543c7867392168a5df",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "metadatos/generico_mg_cpyv_2020.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B3/mg_cpyv2020_09.txt",
+      "bytes": 53566,
+      "sha256": "df90ecf1d1966cd8832f35ccb51442400696a2e967b2fafa9d7d949ba7780891",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "metadatos/mg_cpyv2020_09.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B3/mg_cpyv2020_09.xml",
+      "bytes": 53380,
+      "sha256": "803379bd4de51b3ad8381633c6e29d578d7e3eaf3db7657a99b07b4566f161b1",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B3",
+      "zip_member": "metadatos/mg_cpyv2020_09.xml"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B5/metadatos_denue.txt",
+      "bytes": 1210,
+      "sha256": "bf05c821f1562fdbebb8ae1d38e091bb8e5b72d12fb671117fb256b819cc7894",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B5",
+      "zip_member": "metadatos/metadatos_denue.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/contenido.txt",
+      "bytes": 10596,
+      "sha256": "37a3b01a14d3e90d6315a5b2087747e510ca1a947dc6b588870e3f44c2a4bcf7",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "catalogos/contenido.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/léeme.txt",
+      "bytes": 7144,
+      "sha256": "f1558f97e4dd00e8d06757987999d8c7480f18dc90850b01a2a53161a3404c48",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "catalogos/léeme.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/generico_mg_cpyv_2020.txt",
+      "bytes": 2046,
+      "sha256": "ab0f1b3b6688a08f3dfc478347bf8805f3f94cf0de40ca543c7867392168a5df",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "metadatos/generico_mg_cpyv_2020.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/mg_cpyv2020_15.txt",
+      "bytes": 53842,
+      "sha256": "ba2ff69f761bd5429e78dc5fdf17fe5c75ac0019948a93adbdd4eceffd1e91d6",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "metadatos/mg_cpyv2020_15.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B8/mg_cpyv2020_15.xml",
+      "bytes": 53640,
+      "sha256": "bff9f3497661186dedec901d8e3a07524876c9ecaf19175114ebb741e58c9906",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B8",
+      "zip_member": "metadatos/mg_cpyv2020_15.xml"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B9d1/metadatos_denue.txt",
+      "bytes": 1210,
+      "sha256": "bf05c821f1562fdbebb8ae1d38e091bb8e5b72d12fb671117fb256b819cc7894",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B9d1",
+      "zip_member": "metadatos/metadatos_denue.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B9d2/metadatos_denue.txt",
+      "bytes": 1210,
+      "sha256": "bf05c821f1562fdbebb8ae1d38e091bb8e5b72d12fb671117fb256b819cc7894",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B9d2",
+      "zip_member": "metadatos/metadatos_denue.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/contenido.txt",
+      "bytes": 10596,
+      "sha256": "37a3b01a14d3e90d6315a5b2087747e510ca1a947dc6b588870e3f44c2a4bcf7",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "catalogos/contenido.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/léeme.txt",
+      "bytes": 7144,
+      "sha256": "f1558f97e4dd00e8d06757987999d8c7480f18dc90850b01a2a53161a3404c48",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "catalogos/léeme.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/generico_mg_cpyv_2020.txt",
+      "bytes": 2046,
+      "sha256": "ab0f1b3b6688a08f3dfc478347bf8805f3f94cf0de40ca543c7867392168a5df",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "metadatos/generico_mg_cpyv_2020.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/mg_cpyv2020_13.txt",
+      "bytes": 53623,
+      "sha256": "f065cca7f20521092c487ebc150dbd13d7197312c7262e9da6842d22191a129b",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "metadatos/mg_cpyv2020_13.txt"
+    },
+    {
+      "path": "respaldos_inegi/metadatos/B11/mg_cpyv2020_13.xml",
+      "bytes": 53421,
+      "sha256": "8e31adcf581df86d39c3e94ccef9a080af8041688d94d7425519e92bc5c7b7da",
+      "role": "Unmodified metadata extracted from pinned study input",
+      "source_id": "B11",
+      "zip_member": "metadatos/mg_cpyv2020_13.xml"
+    },
+    {
+      "path": "respaldos_inegi/documentos/denue_nota_editor.pdf",
+      "bytes": 193164,
+      "sha256": "2537e1dac93cf24b34d8df77ec746f6011d804b6fb70a66c7721c66bbe92d448",
+      "role": "Publisher PDF, supplementary context; not a study input"
+    },
+    {
+      "path": "respaldos_inegi/documentos/denue_nota_wayback_20260803.pdf",
+      "bytes": 193164,
+      "sha256": "2537e1dac93cf24b34d8df77ec746f6011d804b6fb70a66c7721c66bbe92d448",
+      "role": "Byte-identical archived publisher note; not a study input"
+    },
+    {
+      "path": "respaldos_inegi/evidencias/marco_original.jpg",
+      "bytes": 143152,
+      "sha256": "b78bcc39d8a2072f5e8d5181195d91e2268af287f5cb0daef7a0c57db4cb1226",
+      "role": "Observed live product-page screenshot"
+    },
+    {
+      "path": "respaldos_inegi/evidencias/denue_original.jpg",
+      "bytes": 153464,
+      "sha256": "d67041355713184943fdebcbd5d7f745fddf5d57ce7c28271674b54c44fd7571",
+      "role": "Observed live DENUE interface screenshot"
+    },
+    {
+      "path": "respaldos_inegi/evidencias/denue_documentacion_snapshot.jpg",
+      "bytes": 98927,
+      "sha256": "07bec168e50cc4a6aef6f1443a6a6b3dec1f9ce780663dd0d10d46d868339557",
+      "role": "Observed archived source-presentation screenshot"
+    },
+    {
+      "path": "respaldos_inegi/version_historica_distinta/denue_cdmx_2025_wayback_20260209.zip.001",
+      "bytes": 20000000,
+      "sha256": "632bedbe53b4c747df3fc66c7599e36288b355802a2d6e341464cec92eafbaa6",
+      "role": "Older DENUE 05_2025 archive, NOT the pinned 05_2026 study input"
+    },
+    {
+      "path": "respaldos_inegi/version_historica_distinta/denue_cdmx_2025_wayback_20260209.zip.002",
+      "bytes": 20000000,
+      "sha256": "c6b1daf9e08b727fdbc7126964a367182406a32e74f00a4e0f61e427b152e9d8",
+      "role": "Older DENUE 05_2025 archive, NOT the pinned 05_2026 study input"
+    },
+    {
+      "path": "respaldos_inegi/version_historica_distinta/denue_cdmx_2025_wayback_20260209.zip.003",
+      "bytes": 4900214,
+      "sha256": "4c934c6c9f698c7d646ad2f1ce8a77cc60cc1aa098885f60eab2980a558669e9",
+      "role": "Older DENUE 05_2025 archive, NOT the pinned 05_2026 study input"
+    },
+    {
+      "path": "respaldos_inegi/version_historica_distinta/metadatos_denue_2025.txt",
+      "bytes": 1210,
+      "sha256": "5bdd004cba8b9a55c48323f44753a6eea606bc46761e9f382549390ccbd9f4da",
+      "role": "Metadata of older non-equivalent archived dataset"
+    },
+    {
+      "path": "respaldos_inegi/marco_ficha_original.html",
+      "bytes": 13053,
+      "sha256": "bf8f0a1e91ef9f26847e0bb44c86ed7219562f9727f2b82497d9a16f3aac5eec",
+      "role": "Local text snapshot of observed rendered public page; not a Wayback capture or executable application"
+    },
+    {
+      "path": "respaldos_inegi/denue_documentacion_archivada.html",
+      "bytes": 6336,
+      "sha256": "e071e6dcc64ab992d12015da306a9caddfa3a81e27ed0fa8c8e55f996f956df3",
+      "role": "Local text snapshot of observed rendered public page; not a Wayback capture or executable application"
+    },
+    {
+      "path": "respaldos_inegi/denue_documentacion_original.html",
+      "bytes": 9416,
+      "sha256": "864f03f90018f2cbbd23ff4c70e6f2685cb99b000dfbca62328dbb8ec0a909d5",
+      "role": "Local text snapshot of observed rendered public page; not a Wayback capture or executable application"
+    },
+    {
+      "path": "respaldos_inegi/index.html",
+      "bytes": 7903,
+      "sha256": "09dbf4d1d68b86f883fccee083598aa08be1b6f25538c8bfb1447b79a4c568a9",
+      "role": "Readable local index, explicitly documents external replay limitations"
+    }
+  ],
+  "marco_external_snapshot_status": "unresolved_redirect_to_generic_catalogue",
+  "denue_external_map_status": "partial_map_not_restored",
+  "denue_documentary_backup_status": "source_presentation_and_note_verified"
+}

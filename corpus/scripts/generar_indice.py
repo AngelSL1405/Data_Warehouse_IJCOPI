@@ -173,6 +173,7 @@ def build(root):
              "Earlier Availability checks are retained below. Subsequent serial Save Page Now outcomes are recorded in the [browser-attempt history](wayback_intentos_browser.json) and [new-capture report](wayback_capturas_nuevas.json). A service-confirmed capture, account visibility and a verified replay are separate states; delayed registration does not establish immediate accessibility.", "",
              "Original-page consultation dates, snapshot capture dates and snapshot consultation dates are recorded separately in the [dated CSV register](consultas_fuentes_y_snapshots.csv) and [JSON register](consultas_fuentes_y_snapshots.json).", "",
              "The [read-only review of eight older snapshots](wayback_verificacion_anteriores.json) distinguishes six visible source presentations, a partial DENUE page and a Marco Geoestadistico fiche that redirects to the generic catalogue. Linked downloads and interactive data services were not verified.", "",
+             "The [supplementary INEGI backups](respaldos_inegi/index.html) preserve live Marco metadata locally and verified archived DENUE documentation. The external Marco replay and DENUE map remain limited; the separately stored archived DENUE 2025 ZIP is not the pinned 2026 study input.", "",
              "| ID | Input file and size | Preserved bytes | Download / origin | Publisher-page evidence | Wayback |",
              "| --- | --- | --- | --- | --- | --- |"]
     split_sources = []

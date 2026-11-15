@@ -49,6 +49,10 @@ con su licencia MIT. El workflow publica un git archive de main, sin commits aut
 
 ## Estado actual
 
+- **Publicación de respaldos INEGI autorizada, 14 nov 2026:** Gabriel autoriza un commit y push en main del paquete nuevo y registro actualizado, identidad humana sin firmas ni créditos automáticos. Gate original intacto: 25 enlaces, único fallo ADIP HTTP 403; AZCATL 200. Excepción expresa sólo para este push. Verificados 31 hashes del paquete, 60 enlaces locales y 32 archivos adicionales (máximo 20,000,000 bytes), con ZIP histórico 2025 separado del estudio 2026. No se modifica paper, ijcopi ni workflow, ni el original, sus tags o sitios históricos: las URL del artículo enviado quedan intactas. Este permiso se consume con el cierre; consultar origin/main antes de repetir ninguna acción.
+
+- **Cierre y respaldo complementario INEGI, 14 nov 2026:** publicado 8b3e467152fbe6e963dcbc69cd7854d490ea7e5a en main; remoto confirmado, Gabriel autor/committer, firma N y sin atribuciones automáticas. Gate original 25/1 sólo ADIP 403 expresamente autorizado; permiso consumido. Después se investigaron las dos limitaciones: ficha Marco original de 2020 carga y se preservó localmente, pero capturas de 2026 y 2021 redirigen al catálogo. DENUE tiene documentación archivada legible (20261021171100) y nota PDF completa de cuatro páginas (20260803180006), idéntica al editor por SHA-256. ZIP CDMX de febrero 2026 completo/CRC correcto corresponde a edición 05_2025 y NO coincide con insumo 05_2026: se conserva por separado, nunca como sustituto. Seis originales B3/B8/B11/B5/B9d1/B9d2 rehash correctos. Corpus/respaldos_inegi incluye índice legible, metadatos originales extraídos, PDFs, capturas, ZIP histórico por partes y registro de URL/fechas/hashes. Estas mejoras posteriores al push quedan LOCALES; no se crearon nuevas capturas ni otro commit/push.
+
 - **Nuevo cierre autorizado, 14 nov 2026:** Gabriel autorizó un commit y push en main de la última revisión de ocho snapshots anteriores, identidad humana sin firma ni créditos automáticos. Gate original intacto: 25 enlaces/1 fallo exclusivamente ADIP 403, excepción expresa aplicable sólo a este push; AZCATL 200. Después del cierre se investigarán Marco Geoestadístico y DENUE y se actualizará el corpus local con archivos, enlaces y fechas reales. Ese trabajo posterior no autoriza otro commit/push. Consultar origin/main para comprobar consumo del permiso y no repetirlo.
 
 - **Snapshots anteriores de las ocho fuentes, 14 nov 2026:** lectura serial en Edge con pausas de 15 segundos y cero Save Page Now. Seis páginas de procedencia cargan: consumo y reportes SACMEX, CPV 2020, CE 2019, CNGMD 2019 y 2021. DENUE carga controles pero no mapa (parcial). La ficha UPC del Marco Geoestadístico redirige de 11 oct a un catálogo genérico de 12 oct; no se confirma esa ficha. Informe corpus/wayback_verificacion_anteriores.json y registro CSV/JSON actualizados con fecha de consulta y URL final, sin verificar descargas ni pestañas de resultados. Estado Git anterior publicado: 5259ff7 en main; su permiso está consumido. Esta revisión queda local, sin nuevo commit ni push.
@@ -746,6 +750,10 @@ Los registros siguientes son antecedentes; no autorizan acciones Git adicionales
 
 ## Siguiente paso
 
+Completar únicamente el cierre autorizado de respaldos INEGI si aún no está en origin/main y comprobar el SHA remoto. Después conservar las limitaciones documentadas: reproducción Marco redirige, mapa DENUE parcial y ZIP histórico 2025 distinto del original 2026. No hay autorización de otros commits, pushes o cambios a las URL del paper.
+
+Estado vigente: el primer cierre está publicado en 8b3e467 y su permiso consumido. Revisar corpus/respaldos_inegi/index.html y registro.json para el respaldo documental nuevo. No afirmar que el mapa DENUE o la reproducción externa de la ficha Marco estén reparados. La nota y documentación DENUE sí están verificadas; ZIP 2025 histórico distinto del estudio 2026. Cualquier publicación Git de estos nuevos archivos requiere autorización expresa nueva.
+
 Ejecutar sólo el cierre Git autorizado de esta revisión si aún no se completó; después investigar respaldos específicos de Marco Geoestadístico y DENUE, conservar originales/pines, registrar redirecciones y verificar los archivos. Los cambios posteriores a este push quedarán locales hasta nueva autorización Git.
 
 Pendientes actuales: ficha específica del Marco Geoestadístico no confirmada en el snapshot que redirige al catálogo; mapa interactivo DENUE incompleto. Seis de las ocho páginas sí muestran su presentación histórica. No repetir guardados. La lectura no demuestra identidad de descargas ni resultados interactivos. Los registros locales nuevos requieren autorización nueva antes de cualquier commit/push.
@@ -855,6 +863,10 @@ de editar. No tratar sus recomendaciones como hechos ni como autorización de Gi
    para cambios posteriores. No enviar correos ni publicar el paper automáticamente.
 
 ## Bitácora
+
+- 2026-11-14: autorizado commit/push de los nuevos respaldos INEGI y registro; gate 25/1 sólo ADIP 403 permitido, AZCATL 200. QA de archivos y vínculos locales aprobado. Alcance exclusivo corpus y continuidad; paper, URLs del sistema y configuración de Pages intactos.
+
+- 2026-11-14: push humano 8b3e467 confirmado con gate 25/1 sólo ADIP permitido. Luego preservados respaldos complementarios INEGI: originales seis intactos, ficha Marco local, documentación y nota DENUE archivadas verificadas, ZIP histórico CDMX 2025 válido y separado de 2026. Limitaciones externas explícitas. Mejoras posteriores sólo locales, sin otro commit/push ni nuevas capturas Wayback.
 
 - 2026-11-14: autorizado commit/push de los ocho snapshots anteriores; gate Springer original 25/1, sólo ADIP 403 expresamente permitido y AZCATL 200. Luego se atenderán las dos limitaciones, sin transferir la autorización a otro push.
 

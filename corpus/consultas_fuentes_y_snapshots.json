@@ -7,7 +7,8 @@
     "A missing snapshot consultation means the old snapshot was not opened; an API availability check is not a consultation.",
     "The Huerta February PDF was read directly and matched the complete 38-page corpus file.",
     "Only the eight missing source pages were submitted to Save Page Now in the latest batch; all eight returned 503.",
-    "The eight older snapshots were reviewed sequentially without new saves; six source presentations load, DENUE remains partial, and the Marco Geoestadistico fiche redirects to a generic catalogue rather than confirming its specific source."
+    "The eight older snapshots were reviewed sequentially without new saves; six source presentations load, DENUE remains partial, and the Marco Geoestadistico fiche redirects to a generic catalogue rather than confirming its specific source.",
+    "Supplementary INEGI records preserve live Marco metadata locally and verified archived DENUE documentation; they do not claim either interactive application repaired. The archived DENUE 2025 ZIP is distinct from the pinned study data."
   ],
   "rows": [
     {
@@ -29,7 +30,11 @@
       "last_save_result": "target_http_503",
       "availability_checked_at_utc": "2026-11-14T00:20:10+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20250905213619/https://datos.cdmx.gob.mx/dataset/consumo-agua",
-      "snapshot_verification_note": "Consumo de agua description and original 2019 CSV resource visible"
+      "snapshot_verification_note": "Consumo de agua description and original 2019 CSV resource visible",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 2,
@@ -50,7 +55,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:54+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114035811/https://data.lib.vt.edu/articles/dataset/InSAR-based_Vertical_Land_Motion_at_Mexico_City/21935947",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 3,
@@ -71,7 +80,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:22:04+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20260221163754/http://boletinsgm.igeolcu.unam.mx/bsgm/vols/epoca04/7401/A071021_Huerta.pdf",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 4,
@@ -92,7 +105,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:53+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114040222/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_maximum_temperature_data_for_Mexico_The_data_are_distributed_as_GeoTiffs_in_geographical_coordinates_at_a_20_arcsec_resolution_with_each_file_containing_the_twelve_months_of_e/28462679/2",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 5,
@@ -113,7 +130,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:21:48+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114040354/https://www.datos.gob.mx/dataset/aguas_subterraneas",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 6,
@@ -134,7 +155,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:56:11+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114040512/https://www.datos.gob.mx/dataset/programa_nacional_contra_sequia_pronacose",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 7,
@@ -155,7 +180,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:21:43+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114040645/https://www.gob.mx/conagua/es/articulos/indicadores-de-calidad-del-agua?idiom=es",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 8,
@@ -176,7 +205,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:49:34+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114040824/https://zenodo.org/records/23150556",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 9,
@@ -197,7 +230,11 @@
       "last_save_result": "target_http_503",
       "availability_checked_at_utc": "2026-11-14T00:22:32+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20251206091609/https://www.datos.cdmx.gob.mx/dataset/reportes-de-agua",
-      "snapshot_verification_note": "Reportes de agua description and historical 2018-2021 CSV resource visible"
+      "snapshot_verification_note": "Reportes de agua description and historical 2018-2021 CSV resource visible",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 10,
@@ -218,7 +255,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:51+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114041054/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClimDB_monthly_average_temperature_data_for_Mexico_/28462769/1",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 11,
@@ -239,7 +280,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:52+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114041205/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_accumulated_precipitation_data_for_Mexico/28462787/1",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 12,
@@ -260,7 +305,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:50+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114041303/https://figshare.com/articles/dataset/Mexico_s_High_Resolution_Climate_Database_MexHiResClim_monthly_minimum_temperature_data_for_Mexico/28124789/1",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 13,
@@ -281,7 +330,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:20:12+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114041401/https://open-meteo.com/en/docs/historical-weather-api",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 14,
@@ -302,7 +355,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:49:35+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114041504/https://sih.conagua.gob.mx/",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 15,
@@ -323,7 +380,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:20+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114041702/https://smn.conagua.gob.mx/es/climatologia/monitor-de-sequia/monitor-de-sequia-en-mexico",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 16,
@@ -344,7 +405,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:22:38+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114041805/https://www.datos.gob.mx/dataset/derechos_agua_municipal",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 17,
@@ -365,7 +430,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:46+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114041949/https://www.datos.gob.mx/dataset/estaciones_sistema_informacion_hidrologica",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 18,
@@ -386,7 +455,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:41+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114042106/https://www.datos.gob.mx/dataset/indices_marginacion",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 19,
@@ -407,7 +480,11 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:40+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114042225/https://www.datos.gob.mx/dataset/metropolis_mexico_2020",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 20,
@@ -428,15 +505,19 @@
       "last_save_result": null,
       "availability_checked_at_utc": "2026-11-14T00:33:42+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261114042329/https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
-      "snapshot_verification_note": "See existing page or PDF verification report"
+      "snapshot_verification_note": "See existing page or PDF verification report",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 21,
       "source_ids": "B11,B3,B8",
       "original_url": "https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
       "canonical_url": "https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
-      "original_consulted_at_utc": "2026-11-14T00:23:56.063Z",
-      "original_consulted_at_mexico": "2026-11-13T18:23:56.063000-06:00",
+      "original_consulted_at_utc": "2026-11-15T00:59:48.794Z",
+      "original_consulted_at_mexico": "2026-11-14T18:59:48.794000-06:00",
       "original_consultation_method": "Observed live publisher page; timestamp retained from procedencia_web.json",
       "snapshot_url": "http://web.archive.org/web/20261011072844/https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
       "snapshot_captured_at_utc": "2026-10-11T07:28:44+00:00",
@@ -449,15 +530,19 @@
       "last_save_result": "target_http_503",
       "availability_checked_at_utc": "2026-11-14T00:33:34+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261012073758/https://www.inegi.org.mx/app/publicaciones/",
-      "snapshot_verification_note": "Requested Marco Geoestadistico UPC fiche redirected to generic Publicaciones catalogue at 20261012073758; specific source content not confirmed"
+      "snapshot_verification_note": "Requested Marco Geoestadistico UPC fiche redirected to generic Publicaciones catalogue at 20261012073758; specific source content not confirmed",
+      "supplementary_preservation_record": "respaldos_inegi/registro.json",
+      "local_preservation_snapshot": "respaldos_inegi/marco_ficha_original.html",
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 22,
       "source_ids": "B5,B9d1,B9d2",
       "original_url": "https://www.inegi.org.mx/app/mapa/denue/",
       "canonical_url": "https://www.inegi.org.mx/app/mapa/denue/",
-      "original_consulted_at_utc": "2026-11-14T00:23:59.21Z",
-      "original_consulted_at_mexico": "2026-11-13T18:23:59.210000-06:00",
+      "original_consulted_at_utc": "2026-11-15T01:03:52.890Z",
+      "original_consulted_at_mexico": "2026-11-14T19:03:52.890000-06:00",
       "original_consultation_method": "Observed live publisher page; timestamp retained from procedencia_web.json",
       "snapshot_url": "http://web.archive.org/web/20261021172815/https://www.inegi.org.mx/app/mapa/denue/",
       "snapshot_captured_at_utc": "2026-10-21T17:28:15+00:00",
@@ -470,7 +555,11 @@
       "last_save_result": "target_http_503",
       "availability_checked_at_utc": "2026-11-14T00:33:36+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261021172815/https://www.inegi.org.mx/app/mapa/denue/",
-      "snapshot_verification_note": "DENUE heading and controls load, but map/data area remains blank after waiting"
+      "snapshot_verification_note": "DENUE heading and controls load, but map/data area remains blank after waiting",
+      "supplementary_preservation_record": "respaldos_inegi/registro.json",
+      "local_preservation_snapshot": "respaldos_inegi/denue_documentacion_archivada.html",
+      "alternative_snapshot_url": "https://web.archive.org/web/20261021171100/https://www.inegi.org.mx/temas/directorio/",
+      "alternative_snapshot_consulted_at_utc": "2026-11-15T01:11:43.546Z"
     },
     {
       "sequence": 23,
@@ -491,7 +580,11 @@
       "last_save_result": "target_http_503",
       "availability_checked_at_utc": "2026-11-14T00:22:07+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261109054125/https://www.inegi.org.mx/programas/ccpv/2020/",
-      "snapshot_verification_note": "CPV 2020 title and explanatory presentation load after waiting; result tabs and downloads not verified"
+      "snapshot_verification_note": "CPV 2020 title and explanatory presentation load after waiting; result tabs and downloads not verified",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 24,
@@ -512,7 +605,11 @@
       "last_save_result": "target_http_503",
       "availability_checked_at_utc": "2026-11-14T00:33:35+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261105114830/https://www.inegi.org.mx/programas/ce/2019/",
-      "snapshot_verification_note": "CE 2019 heading and presentation visible; result tabs and downloads not verified"
+      "snapshot_verification_note": "CE 2019 heading and presentation visible; result tabs and downloads not verified",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 25,
@@ -533,7 +630,11 @@
       "last_save_result": "target_http_503",
       "availability_checked_at_utc": "2026-11-14T00:33:38+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261011112855/https://www.inegi.org.mx/programas/cngmd/2019/",
-      "snapshot_verification_note": "CNGMD 2019 title, explanatory presentation and document list visible; linked files not checked"
+      "snapshot_verification_note": "CNGMD 2019 title, explanatory presentation and document list visible; linked files not checked",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     },
     {
       "sequence": 26,
@@ -554,7 +655,11 @@
       "last_save_result": "target_http_503",
       "availability_checked_at_utc": "2026-11-14T00:22:06+00:00",
       "snapshot_final_url": "https://web.archive.org/web/20261021190548/https://www.inegi.org.mx/programas/cngmd/2021/",
-      "snapshot_verification_note": "CNGMD 2021 title and explanatory presentation visible; result tabs and downloads not verified"
+      "snapshot_verification_note": "CNGMD 2021 title and explanatory presentation visible; result tabs and downloads not verified",
+      "supplementary_preservation_record": null,
+      "local_preservation_snapshot": null,
+      "alternative_snapshot_url": null,
+      "alternative_snapshot_consulted_at_utc": null
     }
   ]
 }

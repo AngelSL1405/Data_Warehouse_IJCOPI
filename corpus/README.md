@@ -133,6 +133,23 @@ The dated register retains the requested link and records the final served URL
 separately. No pages were saved again for this review; linked data downloads and
 interactive result tabs were not verified.
 
+The [supplementary INEGI preservation package](respaldos_inegi/index.html) adds a
+readable local snapshot of the live Marco Geoestadistico 2020 fiche, original
+metadata extracted without alteration from the six pinned input ZIPs, and links
+to their existing preserved parts. The six originals were rehashed successfully;
+they were not replaced or duplicated. Both tested Wayback fiche captures still
+redirect to the generic catalogue, so its external replay remains unresolved.
+
+For DENUE, the package links a readable archived source-presentation page dated
+21 October 2026 and preserves the publisher's four-page correction note together
+with its byte-identical 3 August 2026 snapshot. The complete archived CDMX ZIP of
+9 February 2026 was downloaded and CRC-checked: its own metadata identify the
+05_2025 edition, whereas the pinned study ZIP is 05_2026. The historical ZIP is
+therefore kept in a separately labelled directory, split into contiguous parts
+of at most 20,000,000 bytes, and must not replace the study input. These documentary
+backups do not restore the DENUE interactive map. See the [supplementary record](respaldos_inegi/registro.json)
+for original/archive URLs, actual consultation dates, hashes, roles and limitations.
+
 The subsequent retry of the eight missing pages again returned HTTP 503 for all
 eight; its dated outcomes are appended to the browser-attempt history. The
 [Huerta PDF verification](verificacion_huerta.json) confirms that the existing
