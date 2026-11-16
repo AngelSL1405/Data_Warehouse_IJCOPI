@@ -49,6 +49,10 @@ con su licencia MIT. El workflow publica un git archive de main, sin commits aut
 
 ## Estado actual
 
+- **15 nov 2026: autorizado por Gabriel un commit y push en main de la revisión acumulada de ocho snapshots INEGI y registro, identidad humana sin firma ni créditos automáticos. Gate original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido; AZCATL y sitios históricos 200. QA de 295 referencias locales y 52 hashes aprobada. Alcance siete archivos de registro/documentación/continuidad; paper, URLs, sitio, workflow, originales y copias locales intactos. Este permiso se consume al completar el cierre; comprobar HEAD/origin/main antes de repetir acciones.**
+
+- **15 nov 2026: Gabriel confirma revisión para el paper del agua. Nuevas fechas seriales con pausas, cero guardados: Marco 20250508190737 redirige a catálogo 20250524164100; DENUE 20200317213234 conserva presentación pero mapa blanco tras cerrarla y esperar. Informe acumula ocho replays seleccionados; sin revisión exhaustiva ni sustituto funcional. Registro/README/índice sólo locales; originales, copias visuales y enlaces del paper intactos. Cierre anterior db9167c confirmado y su autorización consumida; sin otro commit/push ni acciones en obras públicas.**
+
 - **15 nov 2026: Gabriel autoriza un commit y push en main de la última revisión de snapshots históricos INEGI y registro. Gate Springer original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido para este cierre; AZCATL y sitios históricos 200. Identidad humana sin firma ni créditos automáticos. QA conserva 26 grupos/65 ID, 295 enlaces y 52 hashes correctos; siete archivos de registro/documentación/continuidad únicamente. Paper, URLs, datos, copias visuales y publicación Pages intactos. Permiso consumido al completar el cierre; confirmar HEAD/origin/main para no repetir. Prompt de continuación para obras entregado aparte: revisar sus pendientes propios sin repetir lo ya terminado, ni transferir autorizaciones Git o excepciones de agua.**
 
 - **15 nov 2026: nuevo reintento pedido por Gabriel, serial y sin guardados. Marco 20240406122257 redirige a catálogo 20240407161103; búsqueda UPC no recupera ficha. DENUE seleccionado 20220621 sirve 20220611120131 y mapa blanco tras 30 s. Informe histórico acumula seis replays seleccionados, sin afirmar revisión exhaustiva. Registro/README/índice actualizados sólo localmente; copias visuales, originales, paper y enlaces intactos. Commit/push anterior 9042b94 ya confirmado; permiso consumido, no reutilizado.**
@@ -764,6 +768,10 @@ Los registros siguientes son antecedentes; no autorizan acciones Git adicionales
 
 ## Siguiente paso
 
+Confirmar únicamente este cierre autorizado de la revisión de ocho replays si aún no está completado; después no repetir Git. Las limitaciones externas siguen documentadas y los originales están preservados. No tocar enlaces del paper ni ejecutar nuevas capturas sin instrucción.
+
+Conservar la revisión de ocho replays y sus limitaciones. Cambios nuevos sólo locales, cualquier commit/push exige autorización nueva. Continuar únicamente en agua salvo otra instrucción, sin nuevas capturas ni cambios a los enlaces del paper.
+
 Confirmar sólo este cierre autorizado si aún no está completado; después no repetir Git. Ficha Marco y mapa DENUE siguen limitados, originales locales completos. Obras públicas continúa con su registro propio y permisos independientes; no cambiar enlaces del paper.
 
 Persisten ficha Marco y mapa DENUE incompletos tras dos replays adicionales; conservar evidencia local y no presentar como reparados. Registro nuevo sólo local, sin permiso de otro commit/push. No repetir guardados ni alterar enlaces del paper.
@@ -891,6 +899,10 @@ de editar. No tratar sus recomendaciones como hechos ni como autorización de Gi
    para cambios posteriores. No enviar correos ni publicar el paper automáticamente.
 
 ## Bitácora
+
+- 15 nov 2026: autorizado por Gabriel un commit y push en main de la revisión acumulada de ocho snapshots INEGI y registro, identidad humana sin firma ni créditos automáticos. Gate original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido; AZCATL y sitios históricos 200. QA de 295 referencias locales y 52 hashes aprobada. Alcance siete archivos de registro/documentación/continuidad; paper, URLs, sitio, workflow, originales y copias locales intactos. Este permiso se consume al completar el cierre; comprobar HEAD/origin/main antes de repetir acciones.
+
+- 15 nov 2026: Gabriel confirma revisión para el paper del agua. Nuevas fechas seriales con pausas, cero guardados: Marco 20250508190737 redirige a catálogo 20250524164100; DENUE 20200317213234 conserva presentación pero mapa blanco tras cerrarla y esperar. Informe acumula ocho replays seleccionados; sin revisión exhaustiva ni sustituto funcional. Registro/README/índice sólo locales; originales, copias visuales y enlaces del paper intactos. Cierre anterior db9167c confirmado y su autorización consumida; sin otro commit/push ni acciones en obras públicas.
 
 - 15 nov 2026: Gabriel autoriza un commit y push en main de la última revisión de snapshots históricos INEGI y registro. Gate Springer original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido para este cierre; AZCATL y sitios históricos 200. Identidad humana sin firma ni créditos automáticos. QA conserva 26 grupos/65 ID, 295 enlaces y 52 hashes correctos; siete archivos de registro/documentación/continuidad únicamente. Paper, URLs, datos, copias visuales y publicación Pages intactos. Permiso consumido al completar el cierre; confirmar HEAD/origin/main para no repetir. Prompt de continuación para obras entregado aparte: revisar sus pendientes propios sin repetir lo ya terminado, ni transferir autorizaciones Git o excepciones de agua.
 

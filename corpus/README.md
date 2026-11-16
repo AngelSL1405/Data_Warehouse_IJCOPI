@@ -225,3 +225,10 @@ search does not recover its specific fiche. DENUE selected 21 June 2022 serves
 11 June 2022, whose map remains blank after 30 seconds. The historical INEGI
 report now records six selected replays, with no functional replacement found
 and no new Save Page Now requests. Originals and existing backups are unchanged.
+
+Another sequential read-only review on 15 November 2026 checked Marco dated
+8 May 2025, which redirects to a generic catalogue dated 24 May, and DENUE
+dated 17 March 2020. The latter presents readable historical introductory text,
+but its map remains blank after closing the presentation and waiting again.
+The report now records eight selected older replays; no functional replacement
+was found, no new pages were saved, and scientific inputs were not changed.
