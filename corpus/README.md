@@ -232,3 +232,10 @@ dated 17 March 2020. The latter presents readable historical introductory text,
 but its map remains blank after closing the presentation and waiting again.
 The report now records eight selected older replays; no functional replacement
 was found, no new pages were saved, and scientific inputs were not changed.
+
+A subsequent serial review on 15 November 2026 selected Marco on 19 August
+2022: Wayback first served a 27 November fiche shell, then redirected to the
+15 November generic catalogue. DENUE dated 28 May 2019 shows its presentation
+and map controls, but tiles report unavailable imagery after 30 seconds.
+The report now records ten selected older reviews, with no functional fiche/map
+replacement recovered. No new archive saves or input replacements were made.
