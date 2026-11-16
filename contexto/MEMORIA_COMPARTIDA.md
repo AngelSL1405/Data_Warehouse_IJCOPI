@@ -49,6 +49,10 @@ con su licencia MIT. El workflow publica un git archive de main, sin commits aut
 
 ## Estado actual
 
+- **15 nov 2026: Gabriel autoriza un commit y push en main de la última revisión de snapshots históricos INEGI y registro. Gate Springer original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido para este cierre; AZCATL y sitios históricos 200. Identidad humana sin firma ni créditos automáticos. QA conserva 26 grupos/65 ID, 295 enlaces y 52 hashes correctos; siete archivos de registro/documentación/continuidad únicamente. Paper, URLs, datos, copias visuales y publicación Pages intactos. Permiso consumido al completar el cierre; confirmar HEAD/origin/main para no repetir. Prompt de continuación para obras entregado aparte: revisar sus pendientes propios sin repetir lo ya terminado, ni transferir autorizaciones Git o excepciones de agua.**
+
+- **15 nov 2026: nuevo reintento pedido por Gabriel, serial y sin guardados. Marco 20240406122257 redirige a catálogo 20240407161103; búsqueda UPC no recupera ficha. DENUE seleccionado 20220621 sirve 20220611120131 y mapa blanco tras 30 s. Informe histórico acumula seis replays seleccionados, sin afirmar revisión exhaustiva. Registro/README/índice actualizados sólo localmente; copias visuales, originales, paper y enlaces intactos. Commit/push anterior 9042b94 ya confirmado; permiso consumido, no reutilizado.**
+
 - **15 nov 2026: Gabriel autoriza un commit y push en main de las copias locales y registro, con identidad humana, sin firmas ni créditos automáticos. Verificador Springer original intacto para este cierre: 25 enlaces, único fallo ADIP 403 expresamente permitido; AZCATL 200 y sitios históricos 200. QA local: 26 grupos/65 insumos, 27 HTML, 295 referencias y 52 hashes, sin recursos remotos embebidos. Se incluyen 28 archivos de copias_locales, dos scripts y seis archivos de documentación/registro/continuidad. Paper, sitio, URLs, workflow, datos científicos y respaldos anteriores intactos. Corpus se publica en Git, sigue excluido de Pages. El permiso se consume al completar este cierre; comprobar HEAD/origin/main antes de repetir acciones.**
 
 - **15 nov 2026: por petición de Gabriel, preparado corpus/copias_locales/index.html con 26 fichas HTML visuales y registro, cubriendo los 65 ID; reutiliza capturas públicas ya conservadas, sin nuevas consultas ni guardados Wayback. Cada ficha enlaza original, snapshot, copia local y archivos científicos, con fechas separadas y hashes. Son copias del área visible capturada, NO páginas completas/WARC ni mapas funcionales; Huerta enlaza PDF completo y Marco/DENUE los textos/documentos existentes. QA estática: 295 referencias locales, 52 hashes, 27 HTML sin scripts ni recursos remotos. Vista automática file:// bloqueada por política del navegador; no se eludió ni se afirma QA visual nueva. Índice general y registro CSV/JSON enlazan las copias; corpus sigue excluido de Pages. Originales, paper y URLs intactos. Sólo local, sin commit/push; permiso anterior 19e9ce3 ya consumido y remoto confirmado.**
@@ -760,6 +764,10 @@ Los registros siguientes son antecedentes; no autorizan acciones Git adicionales
 
 ## Siguiente paso
 
+Confirmar sólo este cierre autorizado si aún no está completado; después no repetir Git. Ficha Marco y mapa DENUE siguen limitados, originales locales completos. Obras públicas continúa con su registro propio y permisos independientes; no cambiar enlaces del paper.
+
+Persisten ficha Marco y mapa DENUE incompletos tras dos replays adicionales; conservar evidencia local y no presentar como reparados. Registro nuevo sólo local, sin permiso de otro commit/push. No repetir guardados ni alterar enlaces del paper.
+
 Comprobar únicamente el cierre de copias locales autorizado si aún no se ha completado; después no repetir commit/push. Las copias visuales están destinadas al repositorio y descarga local, no al Pages existente. Conservar los enlaces enviados en el paper y las limitaciones externas de Marco/DENUE.
 
 Revisar las copias visuales locales en corpus/copias_locales/index.html. No confundir las capturas con clones completos ni con datos científicos. Nuevas copias y registro están sólo locales; cualquier commit/push requiere autorización expresa nueva. No modificar Pages ni enlaces del paper.
@@ -883,6 +891,10 @@ de editar. No tratar sus recomendaciones como hechos ni como autorización de Gi
    para cambios posteriores. No enviar correos ni publicar el paper automáticamente.
 
 ## Bitácora
+
+- 15 nov 2026: Gabriel autoriza un commit y push en main de la última revisión de snapshots históricos INEGI y registro. Gate Springer original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido para este cierre; AZCATL y sitios históricos 200. Identidad humana sin firma ni créditos automáticos. QA conserva 26 grupos/65 ID, 295 enlaces y 52 hashes correctos; siete archivos de registro/documentación/continuidad únicamente. Paper, URLs, datos, copias visuales y publicación Pages intactos. Permiso consumido al completar el cierre; confirmar HEAD/origin/main para no repetir. Prompt de continuación para obras entregado aparte: revisar sus pendientes propios sin repetir lo ya terminado, ni transferir autorizaciones Git o excepciones de agua.
+
+- 15 nov 2026: nuevo reintento pedido por Gabriel, serial y sin guardados. Marco 20240406122257 redirige a catálogo 20240407161103; búsqueda UPC no recupera ficha. DENUE seleccionado 20220621 sirve 20220611120131 y mapa blanco tras 30 s. Informe histórico acumula seis replays seleccionados, sin afirmar revisión exhaustiva. Registro/README/índice actualizados sólo localmente; copias visuales, originales, paper y enlaces intactos. Commit/push anterior 9042b94 ya confirmado; permiso consumido, no reutilizado.
 
 - 15 nov 2026: Gabriel autoriza un commit y push en main de las copias locales y registro, con identidad humana, sin firmas ni créditos automáticos. Verificador Springer original intacto para este cierre: 25 enlaces, único fallo ADIP 403 expresamente permitido; AZCATL 200 y sitios históricos 200. QA local: 26 grupos/65 insumos, 27 HTML, 295 referencias y 52 hashes, sin recursos remotos embebidos. Se incluyen 28 archivos de copias_locales, dos scripts y seis archivos de documentación/registro/continuidad. Paper, sitio, URLs, workflow, datos científicos y respaldos anteriores intactos. Corpus se publica en Git, sigue excluido de Pages. El permiso se consume al completar este cierre; comprobar HEAD/origin/main antes de repetir acciones.
 

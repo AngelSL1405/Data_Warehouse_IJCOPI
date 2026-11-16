@@ -218,3 +218,10 @@ fields; DENUE (24 May 2025) shows a blank map, and DENUE (14 November 2018)
 loads its historical presentation but reports unavailable map imagery. No functional
 replacement of the product fiche or interactive map was found in these four checks.
 All local scientific inputs and earlier successful documentary backups are retained.
+
+A further read-only retry on 15 November 2026 checked two additional replays:
+Marco selected 6 April 2024 redirects to the 7 April generic catalogue, and a UPC
+search does not recover its specific fiche. DENUE selected 21 June 2022 serves
+11 June 2022, whose map remains blank after 30 seconds. The historical INEGI
+report now records six selected replays, with no functional replacement found
+and no new Save Page Now requests. Originals and existing backups are unchanged.

@@ -4,12 +4,12 @@
   "operation": "Sequential read-only Edge calendar and replay review; pauses of at least 15 seconds; no Save Page Now requests",
   "timestamp_note": "Exact observation timestamps retained where emitted during browser review. Marco consultation day was observed; its exact time was not recorded and is not invented.",
   "summary": {
-    "reviewed_snapshots": 4,
+    "reviewed_snapshots": 6,
     "functional_product_fiches_found": 0,
     "functional_maps_found": 0,
     "new_save_requests": 0
   },
-  "scope_note": "Four selected older captures were reviewed, not every historical capture. No download bytes or interactive queries were verified in this review. Existing local scientific inputs and previous successful documentary backups remain unchanged.",
+  "scope_note": "Six selected older captures reviewed across two sessions, not every historical capture. No download bytes verified in these reviews. Local inputs and successful documentary backups unchanged. Requested dates and final served dates are distinguished.",
   "results": [
     {
       "source_ids": [
@@ -78,6 +78,41 @@
       "snapshot_captured_at_utc": "2018-11-14T16:32:39+00:00",
       "minimum_post_navigation_wait_seconds": 15,
       "consulted_at_mexico": "2026-11-14T19:52:39.493000-06:00"
+    },
+    {
+      "source_ids": [
+        "B3",
+        "B8",
+        "B11"
+      ],
+      "original_url": "https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "requested_url": "https://web.archive.org/web/20240406122257/https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469",
+      "final_url": "https://web.archive.org/web/20240407161103/https://www.inegi.org.mx/app/publicaciones/",
+      "status": "unverified_redirect_to_generic_catalogue",
+      "consulted_at_utc": "2026-11-16T04:13:42.877Z",
+      "note": "Selected 6 April 2024 from the calendar. After waiting, fiche redirects to generic catalogue dated 7 April. Searching the catalogue for UPC 889463807469 leaves generic results unchanged; specific product not recovered.",
+      "consulted_at_mexico": "2026-11-15T22:13:42.877000-06:00",
+      "consulted_on_mexico": "2026-11-15",
+      "snapshot_captured_at_utc": "2024-04-07T16:11:03+00:00",
+      "minimum_post_navigation_wait_seconds": 15
+    },
+    {
+      "source_ids": [
+        "B5",
+        "B9d1",
+        "B9d2"
+      ],
+      "original_url": "https://www.inegi.org.mx/app/mapa/denue/",
+      "requested_url": "https://web.archive.org/web/20220621/https://www.inegi.org.mx/app/mapa/denue/",
+      "final_url": "https://web.archive.org/web/20220611120131/https://www.inegi.org.mx/app/mapa/denue/",
+      "status": "partial_blank_map",
+      "consulted_at_utc": "2026-11-16T04:14:58.349Z",
+      "note": "Selected 21 June 2022 from the calendar; served replay is 11 June 2022. Heading and controls load, but map remains blank after an additional 30-second wait. No functional interactive map verified.",
+      "consulted_at_mexico": "2026-11-15T22:14:58.349000-06:00",
+      "consulted_on_mexico": "2026-11-15",
+      "snapshot_captured_at_utc": "2022-06-11T12:01:31+00:00",
+      "minimum_post_navigation_wait_seconds": 30
     }
-  ]
+  ],
+  "last_updated_at_utc": "2026-11-16T04:15:50.527772+00:00"
 }
