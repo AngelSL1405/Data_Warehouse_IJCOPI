@@ -239,3 +239,9 @@ A subsequent serial review on 15 November 2026 selected Marco on 19 August
 and map controls, but tiles report unavailable imagery after 30 seconds.
 The report now records ten selected older reviews, with no functional fiche/map
 replacement recovered. No new archive saves or input replacements were made.
+
+Two further sequential checks on 15 November 2026 selected Marco dated
+23 February 2023 (redirects to the 4 March generic catalogue) and DENUE dated
+25 May 2021 (presentation readable, map blank after closing it and waiting
+again). The historical report now records twelve selected reviews, with no
+functional replacement recovered. No new pages were saved or inputs replaced.

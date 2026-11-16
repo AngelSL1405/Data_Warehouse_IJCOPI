@@ -49,6 +49,10 @@ con su licencia MIT. El workflow publica un git archive de main, sin commits aut
 
 ## Estado actual
 
+- **15 nov 2026: autorizado por Gabriel commit y push en main del registro acumulado de doce revisiones históricas INEGI, con identidad humana sin firma ni créditos automáticos. Gate Springer original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido; AZCATL y sitios históricos 200. QA de 295 referencias y 52 hashes aprobada. Siete archivos públicos de registro/documentación/continuidad; paper, URLs, sitio, workflow, originales y copias locales intactos. Permiso consumido al completar el cierre; confirmar HEAD/origin/main antes de repetir acciones.**
+
+- **15 nov 2026: nuevas fechas no revisadas, una a una con pausas y cero guardados. Marco 20230223223721 redirige a catálogo 20230304153755; DENUE 20210525184916 conserva presentación pero mapa blanco tras cerrarla y esperar. Informe acumula doce revisiones seleccionadas, sin afirmar agotamiento de capturas ni sustituto funcional. Registro/documentación sólo locales; originales, copias locales y enlaces del paper intactos. Cierre previo ce13c36 confirmado y permiso consumido; no hay otro commit/push.**
+
 - **15 nov 2026: Gabriel autoriza un commit y push en main de la revisión acumulada de diez replays INEGI y registro, identidad humana sin firma ni créditos automáticos. Gate original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido para este cierre; AZCATL y enlaces históricos 200. QA de 295 referencias locales y 52 hashes aprobada. Alcance siete archivos de registro/documentación/continuidad; paper, URLs, sitio, workflow, originales y copias locales intactos. Permiso consumido al completar este cierre; comprobar HEAD/origin/main antes de repetir acciones.**
 
 - **15 nov 2026: por petición de otras fechas no revisadas, lectura serial con pausas y cero guardados. Marco seleccionado 20220819 sirve 20221127004106 y redirige a catálogo 20221115214002; DENUE 20190528032626 conserva presentación/herramientas pero teselas sin imágenes tras 30 s. Informe acumula diez revisiones seleccionadas (no exhaustivo). Registro y documentación sólo locales; originales, copias locales, paper y enlaces intactos. Cierre previo 686007a confirmado; permiso consumido, sin nuevo commit/push.**
@@ -772,6 +776,10 @@ Los registros siguientes son antecedentes; no autorizan acciones Git adicionales
 
 ## Siguiente paso
 
+Confirmar únicamente este cierre autorizado de doce revisiones si aún no se ha completado; después no repetir Git. Conservar originales y limitaciones externas documentadas. Nuevos commits, pushes o capturas requieren otra instrucción; no modificar enlaces del paper.
+
+Conservar el registro de doce revisiones y sus limitaciones externas; nuevas modificaciones sólo locales. Cualquier commit/push exige autorización nueva. No repetir guardados ni tocar URLs del paper.
+
 Confirmar únicamente este cierre autorizado de diez revisiones si aún no se ha completado; después no repetir Git. Conservar las limitaciones externas y originales completos. Nuevas acciones Git o capturas requieren otra instrucción; los enlaces del paper permanecen intactos.
 
 Conservar el registro de diez revisiones y las limitaciones externas, sin presentarlas como resueltas. Cambios nuevos locales, cualquier commit/push requiere nueva autorización. No repetir capturas ni alterar URLs del paper.
@@ -907,6 +915,10 @@ de editar. No tratar sus recomendaciones como hechos ni como autorización de Gi
    para cambios posteriores. No enviar correos ni publicar el paper automáticamente.
 
 ## Bitácora
+
+- 15 nov 2026: autorizado por Gabriel commit y push en main del registro acumulado de doce revisiones históricas INEGI, con identidad humana sin firma ni créditos automáticos. Gate Springer original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido; AZCATL y sitios históricos 200. QA de 295 referencias y 52 hashes aprobada. Siete archivos públicos de registro/documentación/continuidad; paper, URLs, sitio, workflow, originales y copias locales intactos. Permiso consumido al completar el cierre; confirmar HEAD/origin/main antes de repetir acciones.
+
+- 15 nov 2026: nuevas fechas no revisadas, una a una con pausas y cero guardados. Marco 20230223223721 redirige a catálogo 20230304153755; DENUE 20210525184916 conserva presentación pero mapa blanco tras cerrarla y esperar. Informe acumula doce revisiones seleccionadas, sin afirmar agotamiento de capturas ni sustituto funcional. Registro/documentación sólo locales; originales, copias locales y enlaces del paper intactos. Cierre previo ce13c36 confirmado y permiso consumido; no hay otro commit/push.
 
 - 15 nov 2026: Gabriel autoriza un commit y push en main de la revisión acumulada de diez replays INEGI y registro, identidad humana sin firma ni créditos automáticos. Gate original intacto: 25 enlaces, único fallo ADIP 403 expresamente permitido para este cierre; AZCATL y enlaces históricos 200. QA de 295 referencias locales y 52 hashes aprobada. Alcance siete archivos de registro/documentación/continuidad; paper, URLs, sitio, workflow, originales y copias locales intactos. Permiso consumido al completar este cierre; comprobar HEAD/origin/main antes de repetir acciones.
 

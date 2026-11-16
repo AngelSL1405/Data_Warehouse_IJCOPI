@@ -16,7 +16,7 @@ The [read-only review of eight older snapshots](wayback_verificacion_anteriores.
 
 The [offline source-copy index](copias_locales/index.html) provides original, Wayback and local visual copies with separate evidence/consultation dates for all 26 source-page groups and 65 inputs. Local copies preserve the captured visible area, not complete interactive websites; original data files remain available separately.
 
-The [additional historical INEGI review](wayback_revision_historica_inegi.json) records ten selected older capture reviews checked with pauses and no new saves: Marco product fields remain empty or redirect to the generic catalogue, while DENUE maps remain blank or report unavailable imagery. Earlier documentary backups remain valid.
+The [additional historical INEGI review](wayback_revision_historica_inegi.json) records twelve selected older capture reviews checked with pauses and no new saves: Marco product fields remain empty or redirect to the generic catalogue, while DENUE maps remain blank or report unavailable imagery. Earlier documentary backups remain valid.
 
 The [supplementary INEGI backups](respaldos_inegi/index.html) preserve live Marco metadata locally and verified archived DENUE documentation. The external Marco replay and DENUE map remain limited; the separately stored archived DENUE 2025 ZIP is not the pinned 2026 study input.
 
